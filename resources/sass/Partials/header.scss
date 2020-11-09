@@ -1,0 +1,79 @@
+// header 
+//header top
+.header_top {
+    font-family:$firstFont;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    position: fixed;
+    z-index: 1;
+    h3 {
+        transition: 0.3s;
+        &:hover {
+            @include colorHover;
+        }
+    }
+}
+// header wrapper
+.header_wrapper {
+    width: 100%;
+    height: 100%;
+    @include genericWrapper;
+    @include genericFlex;
+    // list item
+    .list_item {
+        padding: 10px;
+        transition: 0.4s;
+        &:hover {
+            @include colorHover;
+            transform: scale(1.01);
+        }
+    }
+    // modal
+    .modal {
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+        // modal content
+        .modal_content {
+            height: 30%;
+            width: 5%;
+            margin-left: auto;
+            margin-top: 100px;
+            padding: 20px;
+            background-color: #fff;
+            background-color: rgba(200,200,200,0.8);
+            border-radius: 5px;
+            @include modalFlex;
+            // close button 
+            .close {
+                color: #000;
+                font-size: 28px;
+                font-weight: bold;
+                transition: 0.3s;
+                &:hover {
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+              }
+            li {
+                padding: 5px;
+                font-size: 25px;
+                a {
+                    transition: 0.3s;
+                    &:hover {
+                        @include colorHover;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+// end header

@@ -1,0 +1,25 @@
+// mixins
+// header flex
+@mixin genericFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+//header wrapper
+@mixin genericWrapper {
+    width: 60%;
+    margin: auto;
+}
+// color hover
+@mixin colorHover {
+    cursor: pointer;
+    color: crimson;
+    opacity: 0.8;
+}
+// flex modal
+@mixin modalFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
