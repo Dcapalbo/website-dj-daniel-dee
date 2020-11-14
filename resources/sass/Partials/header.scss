@@ -7,9 +7,15 @@
     height: 100px;
     background-color: lightblue;
     position: fixed;
+    //header top logo
+    .header_top_logo {
+        width: 100px;
+        height: 100%;
+        vertical-align: middle;
+    }
     z-index: 1;
-    h3 {
-        transition: 0.3s;
+    .list_item {
+        transition: 0.4s;
         &:hover {
             @include colorHover;
         }
@@ -27,53 +33,94 @@
         transition: 0.4s;
         &:hover {
             @include colorHover;
-            transform: scale(1.01);
         }
     }
-    // modal
-    .modal {
-        position: fixed;
-        z-index: 1;
-        right: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0,0,0,0.4);
-        // modal content
-        .modal_content {
-            height: 30%;
-            width: 5%;
-            margin-left: auto;
-            margin-top: 100px;
-            padding: 20px;
-            background-color: #fff;
-            background-color: rgba(200,200,200,0.8);
-            border-radius: 5px;
-            @include modalFlex;
-            // close button 
-            .close {
-                color: #000;
-                font-size: 28px;
-                font-weight: bold;
-                transition: 0.3s;
-                &:hover {
-                    transform: scale(1.1);
-                    cursor: pointer;
-                }
-              }
-            li {
-                padding: 5px;
-                font-size: 25px;
-                a {
-                    transition: 0.3s;
-                    &:hover {
-                        @include colorHover;
-                        transform: scale(1.1);
-                    }
-                }
+}
+
+// modal contact
+.modal_contact_bg {
+   @include modalGeneric;
+    justify-content: flex-start;
+    // modal contact content
+    .modal_contact_content {
+        width: 5%;
+        height: 40%;
+        font-family: $firstFont;
+        @include modalContent;
+        a, i {
+            transition: 0.3s;
+            font-size: 25px;
+            &:hover {
+                transform: scale(1.15);
+                color: crimson;
+                opacity: 0.8;
+                cursor: pointer;
             }
         }
     }
+}
+// modal bio
+.modal_bio_bg {
+    @include modalGeneric;
+     justify-content: flex-end;
+    // modal info content
+    .modal_bio_content {
+        width: 50%;
+        height: 80%;
+        padding: 10px 30px;
+        line-height: 35px;
+        font-family: $secondFont;
+        @include modalContent;
+        i {
+            transition: 0.3s;
+            font-size: 25px;
+            &:hover {
+                transform: scale(1.15);
+                color: crimson;
+                opacity: 0.8;
+                cursor: pointer;
+            }
+        } 
+    }
+}
+// modal tour
+.modal_tour_bg {
+    @include modalGeneric;
+     justify-content: center;
+    // modal tour content
+    .modal_tour_content {
+        width: 70%;
+        height: 80%;
+        padding: 10px 30px;
+        line-height: 35px;
+        font-family: $secondFont;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        @include modalContent;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+        i {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: 0.3s;
+            font-size: 25px;
+            &:hover {
+                color: crimson;
+                opacity: 0.8;
+                cursor: pointer;
+            }
+        } 
+    }
+}
+// adding class active for the modal bg
+.bg_active {
+    visibility: visible;
+    opacity: 1;
 }
 // end header

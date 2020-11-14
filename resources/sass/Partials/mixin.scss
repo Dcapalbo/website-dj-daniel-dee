@@ -14,6 +14,7 @@
 @mixin colorHover {
     cursor: pointer;
     color: crimson;
+    transform: scale(1.05);
     opacity: 0.8;
 }
 // flex modal
@@ -22,4 +23,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+//modal generic
+@mixin modalGeneric {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+//modal content 
+@mixin modalContent {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
 }
