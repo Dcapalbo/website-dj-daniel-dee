@@ -7,13 +7,13 @@
     height: 100px;
     background-color: lightblue;
     position: fixed;
+    z-index: 1;
     //header top logo
     .header_top_logo {
         width: 100px;
         height: 100%;
         vertical-align: middle;
     }
-    z-index: 1;
     .list_item {
         transition: 0.4s;
         &:hover {
@@ -40,12 +40,13 @@
 // modal contact
 .modal_contact_bg {
    @include modalGeneric;
-    justify-content: flex-start;
+    justify-content: flex-end;
     // modal contact content
     .modal_contact_content {
         width: 5%;
         height: 40%;
         font-family: $firstFont;
+        background-color: #84D2CB;
         @include modalContent;
         a, i {
             transition: 0.3s;
@@ -62,13 +63,14 @@
 // modal bio
 .modal_bio_bg {
     @include modalGeneric;
-     justify-content: flex-end;
+     justify-content: flex-start;
     // modal info content
     .modal_bio_content {
         width: 50%;
         height: 80%;
         padding: 10px 30px;
         line-height: 35px;
+        background-color: lightblue;
         font-family: $secondFont;
         @include modalContent;
         i {

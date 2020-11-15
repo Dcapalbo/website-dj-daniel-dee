@@ -5,9 +5,17 @@
     justify-content: space-between;
     align-items: center;   
 }
+// main flex 
+@mixin mainFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
 //header wrapper
 @mixin genericWrapper {
     width: 60%;
+    height: 100%;
     margin: auto;
 }
 // color hover
@@ -36,11 +44,10 @@
     align-items: center;
     visibility: hidden;
     opacity: 0;
-    transition: 0.3s;
+    transition: 1.0s;
 }
 //modal content 
 @mixin modalContent {
-    background-color: #fff;
     border-radius: 5px;
     display: flex;
     flex-direction:column;
