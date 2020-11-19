@@ -48,7 +48,7 @@
         font-family: $firstFont;
         background-color: #84D2CB;
         @include modalContent;
-        a, i {
+        a, .close_contact {
             transition: 0.3s;
             font-size: 25px;
             &:hover {
@@ -73,9 +73,14 @@
         background-color: lightblue;
         font-family: $secondFont;
         @include modalContent;
-        i {
+        h3 {
+            font-family: $firstFont;
+        }
+        .close_bio {
             transition: 0.3s;
             font-size: 25px;
+            font-family: $firstFont;
+            font-weight: bold;
             &:hover {
                 transform: scale(1.15);
                 color: crimson;
@@ -105,10 +110,12 @@
             height: 100%;
             border-radius: 5px;
         }
-        i {
+        .close_tour {
             position: absolute;
             bottom: 10px;
             left: 50%;
+            font-family: $firstFont;
+            font-weight: bold;
             transform: translate(-50%, -50%);
             transition: 0.3s;
             font-size: 25px;

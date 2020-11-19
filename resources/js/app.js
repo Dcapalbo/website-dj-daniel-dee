@@ -5,6 +5,7 @@ require('./bootstrap');
 
 // make buttons and bg variables
 // buttons variables
+
 var modalContactBtn = document.querySelector('.modal_contact_button');
 var modalBioBtn = document.querySelector('.modal_bio_button');
 var modalTourBtn = document.querySelector('.modal_tour_button');

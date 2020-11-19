@@ -13,12 +13,43 @@
         padding-bottom: 100px;
         @include mainFlex;
         .music_item {
-            padding: 10px;
+            padding: 5px;
             margin: 0px 20px;
             width: 40%;
             height: 100px;
             border-radius: 5px;
             background-color:lightblue;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            img {
+                width: 20%;
+                margin-right: 5px;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+        .music_item_info {
+            width: 80%;
+            height: 50%;
+            position: relative;
+            .fa-shopping-cart {
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translate(-50%);
+            }
+            .fa-mixcloud {
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translate(-200%);
+            }
+        }
+        .music_item_soundwave {
+            width: 80%;
+            height: 45%;
+            background-color: red;;
         }
     }
 }

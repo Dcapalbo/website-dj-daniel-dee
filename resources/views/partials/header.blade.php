@@ -23,7 +23,7 @@
             <li><a href={{asset("https://twitter.com/DanielDee06")}} target="_blank"><i class="fab fa-twitter" ></a></i></li>
             <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
             <li><a href={{asset("https://open.spotify.com/artist/73rTSTOwixQnWG9UkOj6QE?si=bwj3OjgpRgyP2vXgLcLrXw")}} target="_blank"><i class="fab fa-spotify"></i></a></li>
-            <li class="close_contact">X</li>
+            <span class="close_contact">X</span>
         </div>
       </div>
       <div class="modal_bio_bg">
@@ -34,13 +34,13 @@
             <li>Italian</li>
             <h3>Biography</h3>
             <li>Daniel Dee was born in 1982 in Rome, Italy. He started his career as a DJ at the age of 15 working at a famous club in Rome: the NRG (of Ciampino). At that time, the Roman club scene was dominated by the trance-progressive club genre which influenced him greatly. After his first year of performing, he was chosen as the resident DJ of the NRG club becoming one of the most important figures of the best sunday evening in Italy. In 1998 he was played regularly on “Future Zone” on Mondo Radio which was considered at the time the best progressive house radio show of the centre region of Italy. It was on air every Sunday morning from 12am to 01 pm. As time went by widening his musical knowledge he played techno/trance and started to work in music studios creating new original tracks. At the same time he continued to gain experience in studios and playing in clubs, working with other top Dj's of Italy. Most recently, Daniel Dee has put together an original and innovative project: " The Club " which is currently being proposed to the Roman club scene.</li>
-            <li class="close_bio">X</li>
+            <span class="close_bio">X</span>
         </div>
       </div>
       <div class="modal_tour_bg">
         <div class="modal_tour_content">
             <img src="{{asset('img/tourargentina1tour.png')}}" alt="Image_Argentina_tour">
-            <li class="close_tour">X</li>
+            <span class="close_tour">X</span>
         </div>
       </div>
     </section>
