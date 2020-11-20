@@ -289,6 +289,9 @@ main {
   position: absolute;
   top: 0;
   right: 0;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
   transform: translate(-50%);
 }
 
@@ -296,12 +299,16 @@ main {
   position: absolute;
   top: 0;
   right: 0;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
   transform: translate(-200%);
 }
 
 .first_main_section .main_wrapper .music_item_soundwave {
-  width: 80%;
-  height: 45%;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
   background-color: red;
 }
 

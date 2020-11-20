@@ -19,9 +19,7 @@
             height: 100px;
             border-radius: 5px;
             background-color:lightblue;
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
+            @include flexContent;
             img {
                 width: 20%;
                 margin-right: 5px;
@@ -34,22 +32,25 @@
             height: 50%;
             position: relative;
             .fa-shopping-cart {
-                position: absolute;
-                top: 0;
-                right: 0;
+                @include positionAbsolute;
+                border: 1px solid black;
+                padding: 5px;
+                border-radius: 5px;
                 transform: translate(-50%);
             }
             .fa-mixcloud {
-                position: absolute;
-                top: 0;
-                right: 0;
+                @include positionAbsolute;
+                border: 1px solid black;
+                padding: 5px;
+                border-radius: 5px;
                 transform: translate(-200%);
             }
         }
         .music_item_soundwave {
-            width: 80%;
-            height: 45%;
-            background-color: red;;
+            width: 100%;
+            height: 100%;
+            margin-top: 10px;
+            background-color: red;
         }
     }
 }

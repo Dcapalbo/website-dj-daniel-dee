@@ -54,3 +54,15 @@
     justify-content: space-around;
     align-items: center;
 }
+// position absolute
+@mixin positionAbsolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+// flex content 
+@mixin flexContent {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
