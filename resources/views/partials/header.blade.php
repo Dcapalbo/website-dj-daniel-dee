@@ -4,9 +4,12 @@
     <section class="header_top">
       {{-- nav header wrapper  --}}
       <nav class="header_wrapper">
+        {{-- left info  --}}
           <div class="left_info">
+            {{-- logo  --}}
             <img class="header_top_logo" src="{{asset('/img/nero_1.png')}}" alt="logo daniel dee">
           </div>
+          {{-- right info  --}}
           <div class="right_info">
               <li class="list_item"><a href="#landing_music">Music</a></li>
               <li class="list_item">Release</li>
@@ -15,6 +18,7 @@
               <li class="list_item modal_bio_button">Bio</li>
           </div>
       </nav>
+      {{-- modal contact bg  --}}
       <div class="modal_contact_bg">
         <div class="modal_contact_content">
             <li><a href="mailto:info@danield.net" target="_blank"><i class="far fa-envelope"></i></a></li>
@@ -26,6 +30,7 @@
             <span class="close_contact">X</span>
         </div>
       </div>
+      {{-- modal bio bg  --}}
       <div class="modal_bio_bg">
         <div class="modal_bio_content">
             <h3 id="landing_music">Music</h3>
@@ -37,6 +42,7 @@
             <span class="close_bio">X</span>
         </div>
       </div>
+      {{-- modal tour bg  --}}
       <div class="modal_tour_bg">
         <div class="modal_tour_content">
             <img src="{{asset('img/tourargentina1tour.png')}}" alt="Image_Argentina_tour">
@@ -47,6 +53,7 @@
     {{-- end first header section --}}
     {{-- second header section --}}
     <section>
+      {{-- hero  --}}
         <div class="hero">
           <img class="hero_img" src="{{asset('/img/DSC00165.jpg')}}" alt="Cover Dj">
           <img class="logo" src="{{asset('/img/DD_bianco.png')}}" alt="logo daniel dee">

@@ -1,6 +1,6 @@
+
 const { event } = require('jquery');
 const { get } = require('lodash');
-
 require('./bootstrap');
 
 // make buttons and bg variables
