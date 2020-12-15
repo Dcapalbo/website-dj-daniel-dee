@@ -320,6 +320,89 @@ main {
   width: 100%;
 }
 
+.second_main_section {
+  background-color: crimson;
+  height: 1000px;
+  width: 100%;
+}
+
+.second_main_section h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.second_main_section .main_wrapper {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.second_main_section .main_wrapper .music_item {
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 5px;
+  margin: 0px 20px;
+  height: 100px;
+  padding: 5px;
+  width: 40%;
+}
+
+.second_main_section .main_wrapper .music_item img {
+  border-radius: 5px;
+  margin-right: 5px;
+  height: 100%;
+  width: 20%;
+}
+
+.second_main_section .main_wrapper .music_item_info {
+  position: relative;
+  height: 50%;
+  width: 80%;
+}
+
+.second_main_section .main_wrapper .music_item_info h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+.second_main_section .main_wrapper .music_item_info small {
+  font-family: "Major Mono Display", monospace;
+}
+
+.second_main_section .main_wrapper .music_item_info .fa-shopping-cart {
+  transform: translate(-50%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.second_main_section .main_wrapper .music_item_info .fa-mixcloud {
+  transform: translate(-200%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.second_main_section .main_wrapper .music_item_soundwave {
+  background-color: red;
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
