@@ -14,12 +14,11 @@
             {{-- music item info  --}}
             <div class="mix_item_info">
                 <h5>Daniel Dee</h5>
-                <small>Almost</small>
-                <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+                <small>Dj set, closing party Khoema</small>
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <img src="{{asset('img/almost_album_dee.jpg')}}" alt="Album_image">
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-closing-party-khoema-infunzione-261020/")}} target="_blank"><img src="{{asset('img/Mix_pictures/closing_party_Khoema.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -27,12 +26,11 @@
             {{-- music item info  --}}
             <div class="mix_item_info">
                 <h5>Daniel Dee</h5>
-                <small>Almost</small>
-                <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+                <small>Dj set Argentina</small>
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <img src="{{asset('img/almost_album_dee.jpg')}}" alt="Album_image">
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-dj-set-argentina-techno/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_argentina.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -40,12 +38,11 @@
             {{-- music item info  --}}
             <div class="mix_item_info">
                 <h5>Daniel Dee</h5>
-                <small>Almost</small>
-                <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+                <small>Dj set Reverb</small>
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <img src="{{asset('img/almost_album_dee.jpg')}}" alt="Album_image">
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-reverb-091119/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_reverb.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -53,12 +50,11 @@
             {{-- music item info  --}}
             <div class="mix_item_info">
                 <h5>Daniel Dee</h5>
-                <small>Almost</small>
-                <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+                <small>Dj set Bar del Mar Rosario (Argentina)</small>
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <img src="{{asset('img/almost_album_dee.jpg')}}" alt="Album_image">
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-bar-del-mar-rosario/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_rosario.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -66,12 +62,11 @@
             {{-- music item info  --}}
             <div class="mix_item_info">
                 <h5>Daniel Dee</h5>
-                <small>Almost</small>
-                <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+                <small>Dj set August 2019</small>
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <img src="{{asset('img/almost_album_dee.jpg')}}" alt="Album_image">
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/djdanieldee-progressive-djset-happyaugust2019/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_august_2019.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -79,38 +74,11 @@
             {{-- music item info  --}}
             <div class="mix_item_info">
                 <h5>Daniel Dee</h5>
-                <small>Almost</small>
-                <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+                <small>Dj set Easter 2019</small>
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <img src="{{asset('img/almost_album_dee.jpg')}}" alt="Album_image">
-            </div>
-        </div>
-        {{-- music item  --}}
-        <div class="mix_item">
-            {{-- music item info  --}}
-            <div class="mix_item_info">
-                <h5>Daniel Dee</h5>
-                <small>Almost</small>
-                <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
-            </div>
-            {{-- overlay mix  --}}
-            <div class="overlay_mix">
-                <img src="{{asset('img/almost_album_dee.jpg')}}" alt="Album_image">
-            </div>
-        </div>
-        {{-- music item  --}}
-        <div class="mix_item">
-            {{-- music item info  --}}
-            <div class="mix_item_info">
-                <h5>Daniel Dee</h5>
-                <small>Almost</small>
-                <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
-            </div>
-            {{-- overlay mix  --}}
-            <div class="overlay_mix">
-                <img src="{{asset('img/almost_album_dee.jpg')}}" alt="Album_image">
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-easter-set-2019/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_easter_2019.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
     </div>

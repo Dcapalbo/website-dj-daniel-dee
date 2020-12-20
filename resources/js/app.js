@@ -2,7 +2,6 @@
 const { event } = require('jquery');
 const { get } = require('lodash');
 require('./bootstrap');
-require('./Partials/api');
 
 // make buttons and bg variables
 // buttons variables

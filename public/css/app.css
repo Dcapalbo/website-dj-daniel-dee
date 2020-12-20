@@ -364,6 +364,7 @@ main {
   margin: auto;
   height: 70%;
   width: 60%;
+  padding: 40px 0px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -412,8 +413,8 @@ main {
 .first_main_section .main_wrapper .mix_item .overlay_mix img {
   border-radius: 5px;
   transition: 0.3s;
-  width: 100%;
   opacity: 1;
+  width: 100%;
 }
 
 .first_main_section .main_wrapper .mix_item:hover .overlay_mix {

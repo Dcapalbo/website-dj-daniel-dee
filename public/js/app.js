@@ -30207,18 +30207,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./resources/js/Partials/api.js":
-/*!**************************************!*\
-  !*** ./resources/js/Partials/api.js ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-$(document).ready(function () {// Load the dom 
-});
-
-/***/ }),
-
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -30232,9 +30220,7 @@ var _require = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jqu
 var _require2 = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js"),
     get = _require2.get;
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-__webpack_require__(/*! ./Partials/api */ "./resources/js/Partials/api.js"); // make buttons and bg variables
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // make buttons and bg variables
 // buttons variables
 
 
