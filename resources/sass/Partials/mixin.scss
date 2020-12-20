@@ -1,68 +1,74 @@
 // mixins
 // header flex
 @mixin genericFlex {
-    display: flex;
     justify-content: space-between;
     align-items: center;   
+    display: flex;
 }
 // main flex 
 @mixin mainFlex {
-    display: flex;
     justify-content: center;
     align-items: center; 
     flex-wrap: wrap;
+    display: flex;
 }
 //header wrapper
 @mixin genericWrapper {
-    width: 60%;
-    height: 100%;
     margin: auto;
+    height: 70%;
+    width: 60%;
 }
 // color hover
 @mixin colorHover {
-    cursor: pointer;
-    color: crimson;
     transform: scale(1.05);
+    color: crimson;
+    cursor: pointer;
     opacity: 0.8;
 }
 // flex modal
 @mixin modalFlex {
-    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    display: flex;
 }
 //modal generic
 @mixin modalGeneric {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
     background-color: rgba(0,0,0,0.5);
-    display: flex;
     align-items: center;
     visibility: hidden;
-    opacity: 0;
     transition: 1.0s;
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
 }
 //modal content 
 @mixin modalContent {
+    justify-content: space-around;
+    flex-direction:column;
+    align-items: center;
     border-radius: 5px;
     display: flex;
-    flex-direction:column;
-    justify-content: space-around;
-    align-items: center;
 }
 // position absolute
 @mixin positionAbsolute {
     position: absolute;
-    top: 0;
     right: 0;
+    top: 0;
 }
-// flex content 
-@mixin flexContent {
-    display:flex;
+// flex Music content 
+@mixin flexMusic {
     justify-content: flex-start;
     align-items: flex-start;
+    display: flex;
+}
+// flex Music content 
+@mixin flexMix {
+    justify-content: flex-end;
+    align-items: flex-start;
+    display: flex;
 }

@@ -1,65 +1,4 @@
 //main
-.first_main_section {
-    background-color:#b3446c;
-    height: 1000px;
-    width: 100%;
-    h1 {
-        text-align: center;
-        padding-top: 50px;
-        font-family: $firstFont;
-    }
-    .main_wrapper {
-        @include genericWrapper;
-        padding-bottom: 100px;
-        @include mainFlex;
-        .music_item {
-            background-color:lightblue;
-            @include flexContent;
-            border-radius: 5px;
-            margin: 0px 20px;
-            height: 100px;
-            padding: 5px;
-            width: 40%;
-            img {
-                border-radius: 5px;
-                margin-right: 5px;
-                height: 100%;
-                width: 20%;
-            }
-        }
-        .music_item_info {
-            position: relative;
-            height: 50%;
-            width: 80%;
-            h5 {
-                font-family: $secondFont;
-            }
-            small {
-                font-family: $firstFont;
-            }
-            .fa-shopping-cart {
-                transform: translate(-50%);
-                @include positionAbsolute;
-                border: 1px solid black;
-                border-radius: 5px;
-                padding: 5px;
-            }
-            .fa-mixcloud {
-                transform: translate(-200%);
-                @include positionAbsolute;
-                border: 1px solid black;
-                border-radius: 5px;
-                padding: 5px;
-            }
-        }
-        .music_item_soundwave {
-            background-color: red;
-            margin-top: 10px;
-            height: 100%;
-            width: 100%;
-        }
-    }
-}
 .second_main_section {
     background-color: crimson;
     height: 1000px;
@@ -75,7 +14,7 @@
         @include mainFlex;
         .music_item {
             background-color:lightblue;
-            @include flexContent;
+            @include flexMusic;
             border-radius: 5px;
             margin: 0px 20px;
             height: 100px;

@@ -2,10 +2,10 @@
 const { event } = require('jquery');
 const { get } = require('lodash');
 require('./bootstrap');
+require('./Partials/api');
 
 // make buttons and bg variables
 // buttons variables
-
 var modalContactBtn = document.querySelector('.modal_contact_button');
 var modalBioBtn = document.querySelector('.modal_bio_button');
 var modalTourBtn = document.querySelector('.modal_tour_button');
@@ -13,7 +13,7 @@ var modalTourBtn = document.querySelector('.modal_tour_button');
 var modalContactBg = document.querySelector('.modal_contact_bg');
 var modalBioBg = document.querySelector('.modal_bio_bg');
 var modalTourBg = document.querySelector('.modal_tour_bg');
-// close button variable
+// close buttons variable
 var closeContact = document.querySelector('.close_contact');
 var closeBio = document.querySelector('.close_bio');
 var closeTour = document.querySelector('.close_tour');
