@@ -18,20 +18,24 @@ main {
   text-transform: capitalize;
 }
 
+iframe {
+  border-radius: 10px;
+}
+
 .header_top {
+  background-color: lightblue;
   font-family: "Major Mono Display", monospace;
   font-weight: bold;
-  width: 100%;
-  height: 100px;
-  background-color: lightblue;
   position: fixed;
+  height: 100px;
+  width: 100%;
   z-index: 1;
 }
 
 .header_top .header_top_logo {
+  vertical-align: middle;
   width: 100px;
   height: 100%;
-  vertical-align: middle;
 }
 
 .header_top .list_item {
@@ -49,7 +53,7 @@ main {
   width: 100%;
   height: 100%;
   margin: auto;
-  height: 70%;
+  height: 100%;
   width: 60%;
   justify-content: space-between;
   align-items: center;
@@ -84,15 +88,15 @@ main {
 }
 
 .modal_contact_bg .modal_contact_content {
-  width: 5%;
-  height: 40%;
-  font-family: "Major Mono Display", monospace;
   background-color: #84D2CB;
+  font-family: "Major Mono Display", monospace;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
   border-radius: 5px;
   display: flex;
+  height: 40%;
+  width: 5%;
 }
 
 .modal_contact_bg .modal_contact_content a,
@@ -105,11 +109,12 @@ main {
 .modal_contact_bg .modal_contact_content .close_contact:hover {
   transform: scale(1.15);
   color: crimson;
-  opacity: 0.8;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .modal_bio_bg {
+  justify-content: flex-start;
   background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
   visibility: hidden;
@@ -121,14 +126,9 @@ main {
   opacity: 0;
   left: 0;
   top: 0;
-  justify-content: flex-start;
 }
 
 .modal_bio_bg .modal_bio_content {
-  width: 50%;
-  height: 80%;
-  padding: 10px 30px;
-  line-height: 35px;
   background-color: lightblue;
   font-family: "Roboto", sans-serif;
   justify-content: space-around;
@@ -136,6 +136,10 @@ main {
   align-items: center;
   border-radius: 5px;
   display: flex;
+  padding: 10px 30px;
+  line-height: 35px;
+  height: 80%;
+  width: 50%;
 }
 
 .modal_bio_bg .modal_bio_content h3 {
@@ -143,20 +147,21 @@ main {
 }
 
 .modal_bio_bg .modal_bio_content .close_bio {
-  transition: 0.3s;
-  font-size: 25px;
   font-family: "Major Mono Display", monospace;
   font-weight: bold;
+  transition: 0.3s;
+  font-size: 25px;
 }
 
 .modal_bio_bg .modal_bio_content .close_bio:hover {
   transform: scale(1.15);
   color: crimson;
-  opacity: 0.8;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .modal_tour_bg {
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
   visibility: hidden;
@@ -168,46 +173,45 @@ main {
   opacity: 0;
   left: 0;
   top: 0;
-  justify-content: center;
 }
 
 .modal_tour_bg .modal_tour_content {
-  width: 70%;
-  height: 80%;
-  padding: 10px 30px;
-  line-height: 35px;
   font-family: "Roboto", sans-serif;
-  position: relative;
-  padding: 0;
-  margin: 0;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
   border-radius: 5px;
   display: flex;
+  position: relative;
+  padding: 10px 30px;
+  line-height: 35px;
+  height: 80%;
+  width: 70%;
+  padding: 0;
+  margin: 0;
 }
 
 .modal_tour_bg .modal_tour_content img {
-  width: 100%;
-  height: 100%;
   border-radius: 5px;
+  height: 100%;
+  width: 100%;
 }
 
 .modal_tour_bg .modal_tour_content .close_tour {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  font-family: "Major Mono Display", monospace;
-  font-weight: bold;
   transform: translate(-50%, -50%);
+  font-family: "Major Mono Display", monospace;
+  position: absolute;
+  font-weight: bold;
   transition: 0.3s;
   font-size: 25px;
+  bottom: 10px;
+  left: 50%;
 }
 
 .modal_tour_bg .modal_tour_content .close_tour:hover {
   color: crimson;
-  opacity: 0.8;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .bg_active {
@@ -244,16 +248,17 @@ main {
 }
 
 .second_main_section h1 {
+  font-family: "Major Mono Display", monospace;
   text-align: center;
   padding-top: 50px;
-  font-family: "Major Mono Display", monospace;
 }
 
 .second_main_section .main_wrapper {
   margin: auto;
-  height: 70%;
+  height: 100%;
   width: 60%;
-  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 150px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -261,80 +266,24 @@ main {
 }
 
 .second_main_section .main_wrapper .music_item {
-  background-color: lightblue;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: flex;
-  border-radius: 5px;
-  margin: 0px 20px;
-  height: 100px;
-  padding: 5px;
-  width: 40%;
-}
-
-.second_main_section .main_wrapper .music_item img {
-  border-radius: 5px;
-  margin-right: 5px;
-  height: 100%;
-  width: 20%;
-}
-
-.second_main_section .main_wrapper .music_item_info {
-  position: relative;
-  height: 50%;
-  width: 80%;
-}
-
-.second_main_section .main_wrapper .music_item_info h5 {
-  font-family: "Roboto", sans-serif;
-}
-
-.second_main_section .main_wrapper .music_item_info small {
-  font-family: "Major Mono Display", monospace;
-}
-
-.second_main_section .main_wrapper .music_item_info .fa-shopping-cart {
-  transform: translate(-50%);
-  position: absolute;
-  right: 0;
-  top: 0;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.second_main_section .main_wrapper .music_item_info .fa-mixcloud {
-  transform: translate(-200%);
-  position: absolute;
-  right: 0;
-  top: 0;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.second_main_section .main_wrapper .music_item_soundwave {
-  background-color: red;
-  margin-top: 10px;
-  height: 100%;
-  width: 100%;
+  margin: 20px;
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 130px;
   background-color: lightblue;
   overflow: hidden;
+  position: fixed;
+  height: 130px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 .footer .footer_wrapper {
   width: 100%;
   height: 100%;
   margin: auto;
-  height: 70%;
+  height: 100%;
   width: 60%;
   justify-content: space-between;
   align-items: center;
@@ -343,10 +292,10 @@ main {
 
 .footer .footer_wrapper small,
 .footer .footer_wrapper h4 {
-  font-size: 15px;
-  padding-left: 30px;
   font-family: "Major Mono Display", monospace;
+  padding-left: 30px;
   font-weight: bold;
+  font-size: 15px;
 }
 
 .first_main_section {
@@ -362,7 +311,7 @@ main {
 
 .first_main_section .main_wrapper {
   margin: auto;
-  height: 70%;
+  height: 100%;
   width: 60%;
   padding: 40px 0px;
   justify-content: center;
