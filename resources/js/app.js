@@ -49,17 +49,32 @@ closeTour.addEventListener('click', function() {
 
 // make a scroll function for mix section
 function mixScroll() {
-    var mix = document.getElementById('landing_mix');
-    topMixPos = mix.offsetTop;
+    elmMix = document.getElementById('landing_mix');
+    topMixPos = elmMix.offsetTop;
 } 
+
+// event listener to scroll the page to the mix voice 
+mix = document.querySelector('.mix');
+mix.addEventListener('click', function() {
+    mix = elmMix.scrollTop;
+});
+
 // make a scroll function for music section
 function musicScroll() {
-    var music = document.getElementById('landing_music');
-    topMusicPos = music.offsetTop;
+    elmMusic = document.getElementById('landing_music');
+    topMusicPos = elmMusic.offsetTop;
 } 
+
+// event listener to scroll the page to the mix voice 
+music = document.querySelector('.music');
+music.addEventListener('click', function() {
+    music = elmMusic.scrollTop;
+});
+
 // Invoke the mix and music functions 
 mixScroll();
 musicScroll();
+
 // console logs 
 console.log(topMixPos);
 console.log(topMusicPos);
