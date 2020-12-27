@@ -10,7 +10,7 @@
     // main wrapper 
     .main_wrapper {
         @include genericWrapper;
-        padding: 40px 0px;
+        padding: 90px 0px;
         @include mainFlex;
         // mix item 
         .mix_item {

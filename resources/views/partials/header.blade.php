@@ -33,7 +33,7 @@
       {{-- modal bio bg  --}}
       <div class="modal_bio_bg">
         <div class="modal_bio_content">
-            <h3 id="landing_music">Music</h3>
+            <h3>Music</h3>
             <li>Progressive/Techno/Electronic Music</li>
             <h3>Nationality</h3>
             <li>Italian</li>

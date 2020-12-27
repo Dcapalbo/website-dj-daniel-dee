@@ -30258,35 +30258,53 @@ modalTourBtn.addEventListener('click', function () {
 
 closeTour.addEventListener('click', function () {
   modalTourBg.classList.remove('bg_active');
-}); // make a scroll function for mix section
+}); // make a scroll function to scroll the dom
 
-function mixScroll() {
-  elmMix = document.getElementById('landing_mix');
-  topMixPos = elmMix.offsetTop;
-} // event listener to scroll the page to the mix voice 
+function smoothScroll(elm, duration) {
+  var elmPos = elm.getBoundingClientRect().top;
+  console.log(elmPos);
+  var startPos = window.pageYOffset;
+  console.log(startPos);
+  var dist = elmPos - startPos;
+  console.log(dist);
+  var starTime = null;
+
+  function animation(currenTime) {
+    if (starTime === null) starTime = currenTime;
+    var timeElapsed = currenTime - starTime;
+    var run = ease(timeElapsed, startPos, dist, duration);
+    window.scrollTo(0, run);
+    if (timeElapsed < duration) requestAnimationFrame(animation);
+  } // make an ease function for the smooth effect 
 
 
-mix = document.querySelector('.mix');
+  function ease(t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return c / 2 * t * t + b;
+    t--;
+    return -c / 2 * (t * (t - 2) - 1) + b;
+  }
+
+  requestAnimationFrame(animation);
+}
+
+; // define mix
+
+var mix = document.querySelector('.mix'); // define the landing selector of mix 
+
+var landingMix = document.getElementById('landing_mix'); // define music 
+
+var music = document.querySelector('.music'); // define the landing selector of music 
+
+var landingMusic = document.getElementById('landing_music'); // add eventlistener and invoke the smooth function for the landing mix
+
 mix.addEventListener('click', function () {
-  mix = elmMix.scrollTop;
-}); // make a scroll function for music section
+  smoothScroll(landingMix, 1000);
+}); // add eventlistener and invoke the smooth function for the landing music
 
-function musicScroll() {
-  elmMusic = document.getElementById('landing_music');
-  topMusicPos = elmMusic.offsetTop;
-} // event listener to scroll the page to the mix voice 
-
-
-music = document.querySelector('.music');
 music.addEventListener('click', function () {
-  music = elmMusic.scrollTop;
-}); // Invoke the mix and music functions 
-
-mixScroll();
-musicScroll(); // console logs 
-
-console.log(topMixPos);
-console.log(topMusicPos);
+  smoothScroll(landingMusic, 1000);
+});
 
 /***/ }),
 
