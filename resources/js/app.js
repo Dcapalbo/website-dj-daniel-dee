@@ -47,3 +47,20 @@ closeTour.addEventListener('click', function() {
     modalTourBg.classList.remove('bg_active');
 });
 
+// make a scroll function for mix section
+function mixScroll() {
+    var mix = document.getElementById('landing_mix');
+    topMixPos = mix.offsetTop;
+} 
+// make a scroll function for music section
+function musicScroll() {
+    var music = document.getElementById('landing_music');
+    topMusicPos = music.offsetTop;
+} 
+// Invoke the mix and music functions 
+mixScroll();
+musicScroll();
+// console logs 
+console.log(topMixPos);
+console.log(topMusicPos);
+

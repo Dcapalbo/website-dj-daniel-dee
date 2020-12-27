@@ -11,8 +11,8 @@
           </div>
           {{-- right info  --}}
           <div class="right_info">
-              <li class="list_item"><a href="landing_music">Music</a></li>
-              <li class="list_item"><a href="landing-mix">Mix</a></li>
+              <li class="list_item mix">Mix</li>
+              <li class="list_item music">Music</li>
               <li class="list_item modal_tour_button">Tour</li>
               <li class="list_item modal_contact_button">Contacts</li>
               <li class="list_item modal_bio_button">Bio</li>

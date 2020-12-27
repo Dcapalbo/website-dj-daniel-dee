@@ -6,7 +6,7 @@
 {{-- first main section  --}}
 <section class="first_main_section">
     {{-- landing voice  --}}
-    <h1 id="landing_releases">Mix</h1>
+    <h1 id="landing_mix">Mix</h1>
     {{-- main wrapper  --}}
     <div class="main_wrapper">
         {{-- music item  --}}
