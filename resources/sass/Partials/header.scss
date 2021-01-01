@@ -36,7 +36,6 @@
         }
     }
 }
-
 // modal contact
 .modal_contact_bg {
    @include modalGeneric;
@@ -197,6 +196,7 @@
         font-size: 15px;
         cursor: pointer;
         display: block;
+        // dropdown 
         .dropdown_list_item {
             transform: translate(-50%,-50%);
             font-family:$firstFont;
@@ -219,6 +219,7 @@
 }
 // desktop 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    // header_top 
     .header_top {
         background-color: lightblue;
         font-family:$firstFont;
@@ -228,6 +229,7 @@
         width: 100%;
         z-index: 1;
     }
+    // hamburgher 
     .hamburgher {
         display: none;
     }
