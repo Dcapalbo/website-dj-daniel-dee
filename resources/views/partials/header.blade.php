@@ -5,18 +5,27 @@
       {{-- nav header wrapper  --}}
       <nav class="header_wrapper">
         {{-- left info  --}}
-          <div class="left_info">
+        <div class="left_info">
             {{-- logo  --}}
-            <img class="header_top_logo" src="{{asset('/img/nero_1.png')}}" alt="logo daniel dee">
-          </div>
+          <img class="header_top_logo" src="{{asset('/img/nero_1.png')}}" alt="logo daniel dee">
+        </div>
           {{-- right info  --}}
-          <div class="right_info">
-              <li class="list_item mix">Mix</li>
-              <li class="list_item music">Music</li>
-              <li class="list_item modal_tour_button">Tour</li>
-              <li class="list_item modal_contact_button">Contacts</li>
-              <li class="list_item modal_bio_button">Bio</li>
-          </div>
+        <div class="right_info">
+            <li class="list_item mix">Mix</li>
+            <li class="list_item music">Music</li>
+            <li class="list_item modal_tour_button">Tour</li>
+            <li class="list_item modal_contact_button">Contacts</li>
+            <li class="list_item modal_bio_button">Bio</li>
+        </div>
+        <i class="fas fa-bars hamburgher">
+          <ul class="dropdown_list_item">
+            <li class="list_item mix">Mix</li>
+            <li class="list_item music">Music</li>
+            <li class="list_item modal_tour_button">Tour</li>
+            <li class="list_item modal_contact_button">Contacts</li>
+            <li class="list_item modal_bio_button">Bio</li>
+          </ul>
+        </i>
       </nav>
       {{-- modal contact bg  --}}
       <div class="modal_contact_bg">

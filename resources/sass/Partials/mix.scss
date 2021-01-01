@@ -68,3 +68,40 @@
         }
     }
 }
+// responsive
+// media screen mobile 
+@media screen and (min-width: 0px) and (max-width:768px) {
+    .first_main_section {
+        background-color:#b3446c;
+        width: 100%;
+        h1 {
+            text-align: center;
+            padding-top: 50px;
+            font-family: $firstFont;
+        }
+        // main wrapper 
+        .main_wrapper {
+            @include genericWrapper;
+            padding: 90px 0px;
+            @include mainFlex;
+            // mix item 
+            .mix_item {
+                background-color: none;
+                border-radius: 5px;
+                position: relative;
+                margin: 20px 20px;
+                transition: 0.3s;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+// media screen tablet 
+@media screen and (min-width: 769px) and (max-width:991px) {
+
+}
+// media screen desktop
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}

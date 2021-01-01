@@ -132,4 +132,39 @@
     visibility: visible;
     opacity: 1;
 }
+.hamburgher {
+    display: none;
+}
 // end header
+// responsive 
+// Mobile
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .right_info {
+        display: none;
+    }
+    .hamburgher {
+        display: block;
+        .dropdown_list_item {
+            width: 300px;
+            height: 200px;
+        }
+    }
+}  
+// tablet 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .right_info {
+        display: none;
+    }
+    .hamburgher {
+        display: block;
+        .dropdown_list_item {
+           display: none;
+        }
+    }
+}  
+// desktop 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .hamburgher {
+        display: none;
+    }
+}  
