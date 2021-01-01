@@ -229,12 +229,31 @@ iframe {
   }
 
   .hamburgher {
+    position: relative;
+    transition: 0.3;
+    font-size: 15px;
+    cursor: pointer;
     display: block;
   }
 
   .hamburgher .dropdown_list_item {
-    width: 300px;
-    height: 200px;
+    transform: translate(-50%, -50%);
+    font-family: "Major Mono Display", monospace;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    width: 110px;
+    left: -400%;
+    top: 500%;
+  }
+
+  .hamburgher:hover .dropdown_list_item {
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
   }
 }
 
@@ -244,11 +263,31 @@ iframe {
   }
 
   .hamburgher {
+    position: relative;
+    transition: 0.3;
+    font-size: 15px;
+    cursor: pointer;
     display: block;
   }
 
   .hamburgher .dropdown_list_item {
+    transform: translate(-50%, -50%);
+    font-family: "Major Mono Display", monospace;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
     display: none;
+    width: 110px;
+    left: -400%;
+    top: 500%;
+  }
+
+  .hamburgher:hover .dropdown_list_item {
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
   }
 }
 
@@ -305,6 +344,40 @@ iframe {
 
 .second_main_section .main_wrapper .music_item {
   margin: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .second_main_section {
+    background-color: #2E8B57;
+    width: 100%;
+  }
+
+  .second_main_section h1 {
+    font-family: "Major Mono Display", monospace;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .second_main_section .main_wrapper {
+    margin: auto;
+    height: 100%;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .second_main_section .main_wrapper .music_item {
+    margin: 20px;
+  }
+
+  .second_main_section .main_wrapper .music_item iframe {
+    height: 150px;
+    width: 300px;
+  }
 }
 
 .footer {
