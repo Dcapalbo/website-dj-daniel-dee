@@ -21,3 +21,74 @@
         } 
     }
 }
+// responsive 
+// mobile 
+@media screen and (min-width: 0px) and (max-width:767px) {
+    .footer {
+        background-color: lightblue;
+        overflow: hidden;
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        .footer_wrapper {
+            width: 100%;
+            height: 100%;
+            @include genericWrapper;
+            @include genericFlex;
+            small, h4 {
+                font-family: $firstFont;
+                padding-left: 30px;
+                font-weight: bold;
+                font-size: 10px;
+            } 
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width: 991px) {
+    .footer {
+        background-color: lightblue;
+        overflow: hidden;
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        .footer_wrapper {
+            width: 100%;
+            height: 100%;
+            @include genericWrapper;
+            @include genericFlex;
+            small, h4 {
+                font-family: $firstFont;
+                padding-left: 30px;
+                font-weight: bold;
+                font-size: 10px;
+            } 
+        }
+    }
+}
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    .footer {
+        background-color: lightblue;
+        overflow: hidden;
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        .footer_wrapper {
+            width: 100%;
+            height: 100%;
+            @include genericWrapper;
+            @include genericFlex;
+            small, h4 {
+                font-family: $firstFont;
+                padding-left: 30px;
+                font-weight: bold;
+                font-size: 12px;
+            } 
+        }
+    }
+}

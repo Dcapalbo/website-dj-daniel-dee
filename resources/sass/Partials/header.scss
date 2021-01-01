@@ -139,6 +139,15 @@
 // responsive 
 // Mobile
 @media screen and (min-width: 0px) and (max-width: 767px) {
+    .header_top {
+        background-color: lightblue;
+        font-family:$firstFont;
+        font-weight: bold;
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        z-index: 1;
+    }
     .right_info {
         display: none;
     }
@@ -170,6 +179,15 @@
 }  
 // tablet 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .header_top {
+        background-color: lightblue;
+        font-family:$firstFont;
+        font-weight: bold;
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        z-index: 1;
+    }
     .right_info {
         display: none;
     }
@@ -201,6 +219,15 @@
 }
 // desktop 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .header_top {
+        background-color: lightblue;
+        font-family:$firstFont;
+        font-weight: bold;
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        z-index: 1;
+    }
     .hamburgher {
         display: none;
     }
