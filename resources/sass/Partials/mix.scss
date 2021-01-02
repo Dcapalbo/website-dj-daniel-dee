@@ -14,8 +14,8 @@
         padding-bottom: 110px;
         @include mainFlex;
         // mix item 
-        .mix_item {
-            background-color:#000; 
+        .mix_item { 
+            background-color: #000;
             border-radius: 5px;
             position: relative;
             margin: 20px 20px;
@@ -70,8 +70,8 @@
     }
 }
 // responsive
-// media screen mobile 
-@media screen and (min-width: 0px) and (max-width:768px) {
+// mobile 
+@media screen and (min-width: 0px) and (max-width:767px) {
     .first_main_section {
         background-color:#b3446c;
         width: 100%;
@@ -86,12 +86,38 @@
             @include mainFlex;
             // mix item 
             .mix_item {
-                background-color:#000;
+                background-color: #000;
                 border-radius: 5px;
                 position: relative;
                 transition: 0.3s;
-                height: 100%;
-                width: 100%;
+                min-height: 300px;
+                min-width: 300px;
+            }
+        }
+    }
+}
+// tablet
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .first_main_section {
+        background-color:#b3446c;
+        width: 100%;
+        h1 {
+            text-align: center;
+            padding-top: 50px;
+            font-family: $firstFont;
+        }
+        // main wrapper 
+        .main_wrapper {
+            @include genericWrapper;
+            @include mainFlex;
+            // mix item 
+            .mix_item {
+                background-color: #000;
+                border-radius: 5px;
+                position: relative;
+                transition: 0.3s;
+                min-height: 300px;
+                min-width: 300px;
             }
         }
     }
