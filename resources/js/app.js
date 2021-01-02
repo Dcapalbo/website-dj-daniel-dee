@@ -94,10 +94,10 @@ var music = document.querySelector('.music');
 // define the landing selector of music 
 var landingMusic = document.getElementById('landing_music');
 // add eventlistener and invoke the smooth function for the landing mix
-mix.addEventListener('click', function(){
-    smoothScroll(landingMix, 1000);
+mix.addEventListener('click', function() {
+        smoothScroll(landingMix, 1000);
 });
 // add eventlistener and invoke the smooth function for the landing music
 music.addEventListener('click', function(){
-    smoothScroll(landingMusic, 1000);
+        smoothScroll(landingMusic, 1000);
 });
