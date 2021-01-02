@@ -54,7 +54,7 @@ iframe {
   height: 100%;
   margin: auto;
   height: 100%;
-  width: 75%;
+  width: 65%;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -95,8 +95,8 @@ iframe {
   align-items: center;
   border-radius: 5px;
   display: flex;
-  height: 40%;
-  width: 5%;
+  min-height: 40%;
+  min-width: 5%;
 }
 
 .modal_contact_bg .modal_contact_content a,
@@ -137,9 +137,10 @@ iframe {
   border-radius: 5px;
   display: flex;
   padding: 10px 30px;
+  overflow: auto;
   line-height: 35px;
-  height: 80%;
-  width: 50%;
+  margin: auto;
+  width: 90%;
 }
 
 .modal_bio_bg .modal_bio_content h3 {
@@ -185,8 +186,8 @@ iframe {
   position: relative;
   padding: 10px 30px;
   line-height: 35px;
-  height: 80%;
-  width: 70%;
+  min-height: 500px;
+  min-width: 600px;
   padding: 0;
   margin: 0;
 }
@@ -221,6 +222,11 @@ iframe {
 
 .hamburgher {
   display: none;
+}
+
+body.modal_open {
+  overflow: hidden;
+  height: 100vh;
 }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
@@ -413,7 +419,7 @@ iframe {
 .second_main_section .main_wrapper {
   margin: auto;
   height: 100%;
-  width: 75%;
+  width: 65%;
   padding-top: 40px;
   padding-bottom: 150px;
   justify-content: center;
@@ -441,7 +447,7 @@ iframe {
   .second_main_section .main_wrapper {
     margin: auto;
     height: 100%;
-    width: 75%;
+    width: 65%;
     padding-top: 40px;
     padding-bottom: 150px;
     justify-content: center;
@@ -475,7 +481,7 @@ iframe {
   height: 100%;
   margin: auto;
   height: 100%;
-  width: 75%;
+  width: 65%;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -534,7 +540,7 @@ iframe {
     height: 100%;
     margin: auto;
     height: 100%;
-    width: 75%;
+    width: 65%;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -565,7 +571,7 @@ iframe {
     height: 100%;
     margin: auto;
     height: 100%;
-    width: 75%;
+    width: 65%;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -594,7 +600,7 @@ iframe {
 .first_main_section .main_wrapper {
   margin: auto;
   height: 100%;
-  width: 75%;
+  width: 65%;
   padding-top: 65px;
   padding-bottom: 110px;
   justify-content: center;
@@ -676,7 +682,7 @@ iframe {
   .first_main_section .main_wrapper {
     margin: auto;
     height: 100%;
-    width: 75%;
+    width: 65%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -708,7 +714,7 @@ iframe {
   .first_main_section .main_wrapper {
     margin: auto;
     height: 100%;
-    width: 75%;
+    width: 65%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;

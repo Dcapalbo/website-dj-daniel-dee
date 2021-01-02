@@ -30237,26 +30237,38 @@ var closeBio = document.querySelector('.close_bio');
 var closeTour = document.querySelector('.close_tour'); // make a contact button event click function to add the class active
 
 modalContactBtn.addEventListener('click', function () {
+  bFixed = document.querySelector('body');
+  bFixed.classList.add('modal_open');
   modalContactBg.classList.add('bg_active');
 }); // make an event click function to delete the class active
 
 closeContact.addEventListener('click', function () {
+  bFixed = document.querySelector('body');
+  bFixed.classList.remove('modal_open');
   modalContactBg.classList.remove('bg_active');
 }); // make a bio button event click function to add the class active
 
 modalBioBtn.addEventListener('click', function () {
+  bFixed = document.querySelector('body');
+  bFixed.classList.add('modal_open');
   modalBioBg.classList.add('bg_active');
 }); // make an event click function to delete the class active
 
 closeBio.addEventListener('click', function () {
+  bFixed = document.querySelector('body');
+  bFixed.classList.remove('modal_open');
   modalBioBg.classList.remove('bg_active');
 }); // make a tour button event click function to add the class active
 
 modalTourBtn.addEventListener('click', function () {
+  bFixed = document.querySelector('body');
+  bFixed.classList.add('modal_open');
   modalTourBg.classList.add('bg_active');
 }); // make an event click function to delete the class active
 
 closeTour.addEventListener('click', function () {
+  bFixed = document.querySelector('body');
+  bFixed.classList.remove('modal_open');
   modalTourBg.classList.remove('bg_active');
 }); // make a scroll function to scroll the dom
 
