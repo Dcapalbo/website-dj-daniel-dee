@@ -214,8 +214,8 @@ iframe {
   position: relative;
   padding: 10px 30px;
   line-height: 35px;
-  min-height: 500px;
-  min-width: 600px;
+  min-height: 700px;
+  min-width: 300px;
   padding: 0;
   margin: 0;
 }
@@ -580,10 +580,12 @@ body.modal_open {
 }
 
 .footer .footer_wrapper small,
-.footer .footer_wrapper h4 {
+.footer .footer_wrapper h4,
+.footer .footer_wrapper p {
   font-family: "Major Mono Display", monospace;
   padding-left: 30px;
   font-weight: bold;
+  line-height: 30px;
   font-size: 15px;
 }
 
@@ -608,10 +610,12 @@ body.modal_open {
   }
 
   .footer .footer_wrapper small,
-  .footer .footer_wrapper h4 {
+  .footer .footer_wrapper h4,
+  .footer .footer_wrapper p {
     font-family: "Major Mono Display", monospace;
     padding-left: 30px;
     font-weight: bold;
+    line-height: 15px;
     font-size: 8px;
   }
 }
@@ -639,11 +643,13 @@ body.modal_open {
   }
 
   .footer .footer_wrapper small,
-  .footer .footer_wrapper h4 {
+  .footer .footer_wrapper h4,
+  .footer .footer_wrapper p {
     font-family: "Major Mono Display", monospace;
     padding-left: 30px;
     font-weight: bold;
-    font-size: 12px;
+    line-height: 20px;
+    font-size: 10px;
   }
 }
 
@@ -670,11 +676,13 @@ body.modal_open {
   }
 
   .footer .footer_wrapper small,
-  .footer .footer_wrapper h4 {
+  .footer .footer_wrapper h4,
+  .footer .footer_wrapper p {
     font-family: "Major Mono Display", monospace;
     padding-left: 30px;
     font-weight: bold;
-    font-size: 12px;
+    line-height: 30px;
+    font-size: 15px;
   }
 }
 

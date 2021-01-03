@@ -10,7 +10,8 @@
         </div>
         {{-- right footer  --}}
         <div class="right_footer">
-            <h4>info@danieldee.net</h4>
+            <h4>International Manager</h4>
+            <p>Julieta Ruffolo</p>
         </div>
       </div>
     </section>
