@@ -1,6 +1,6 @@
 // mix item 
 .first_main_section {
-    background-color:#b3446c;
+    background-color:#132821;
     width: 100%;
     h1 {
         text-align: center;
@@ -52,8 +52,9 @@
                 img {
                     border-radius: 5px;
                     transition: 0.3s;
-                    opacity: 1;
+                    height: 100%;
                     width: 100%;
+                    opacity: 1;
                 }
             }
             &:hover .overlay_mix {
