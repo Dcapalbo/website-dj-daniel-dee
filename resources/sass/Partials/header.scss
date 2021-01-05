@@ -201,37 +201,36 @@ body.modal_open {
             opacity: 1;
         }
     }
-    // modal bio
-    .modal_bio_bg {
-        justify-content: flex-start;
-        @include modalGeneric;
-        // modal info content
-        .modal_bio_content {
-            background-color: lightblue;
-            font-family: $secondFont;
-            @include modalContent;
-            padding: 10px 30px;
-            overflow: auto;
-            line-height: 35px;
-            margin: auto;
-            width: 90%;
-            h3 {
-                font-family: $firstFont;
-            }
-            .close_bio {
-                font-family: $firstFont;
-                font-weight: bold;
-                transition: 0.3s;
-                font-size: 25px;
-                &:hover {
-                    transform: scale(1.15);
-                    color: crimson;
-                    cursor: pointer;
-                    opacity: 0.8;
-                }
-            } 
+    .modal_bio_content {
+        font-size: 10px;
+        line-height: 20px;
+        background-color: lightblue;
+        font-family: $secondFont;
+        @include modalContent;
+        overflow-y: auto;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        h3 {
+            font-family: $firstFont;
         }
+        .close_bio {
+            font-family: $firstFont;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 15px;
+            &:hover {
+                transform: scale(1.15);
+                color: crimson;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        } 
     }
+    body.modal_open {
+        overflow: scroll;
+        height: 100vh;
+      }
 }  
 // tablet 
 @media screen and (min-width: 768px) and (max-width: 991px) {
