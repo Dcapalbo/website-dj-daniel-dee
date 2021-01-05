@@ -713,10 +713,10 @@ body.modal_open {
   background-color: #000;
   border-radius: 5px;
   position: relative;
-  margin: 20px 20px;
+  margin: 40px 20px;
   transition: 0.3s;
-  height: 300px;
-  width: 300px;
+  width: 320px;
+  height: 250px;
 }
 
 .first_main_section .main_wrapper .mix_item .mix_item_info {
@@ -751,14 +751,13 @@ body.modal_open {
 .first_main_section .main_wrapper .mix_item .overlay_mix img {
   border-radius: 5px;
   transition: 0.3s;
-  height: 100%;
-  width: 100%;
+  width: 320px;
+  height: 250px;
   opacity: 1;
 }
 
 .first_main_section .main_wrapper .mix_item:hover .overlay_mix {
   transform: translate(1.15);
-  border-radius: 20px;
   cursor: pointer;
   opacity: 0.2;
 }
@@ -770,7 +769,7 @@ body.modal_open {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .first_main_section {
-    background-color: #b3446c;
+    background-color: #132821;
     width: 100%;
   }
 
@@ -795,14 +794,14 @@ body.modal_open {
     border-radius: 5px;
     position: relative;
     transition: 0.3s;
-    min-height: 300px;
-    min-width: 300px;
+    min-height: 250px;
+    min-width: 320px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .first_main_section {
-    background-color: #b3446c;
+    background-color: #132821;
     width: 100%;
   }
 
@@ -827,8 +826,8 @@ body.modal_open {
     border-radius: 5px;
     position: relative;
     transition: 0.3s;
-    min-height: 300px;
-    min-width: 300px;
+    min-height: 250px;
+    min-width: 320px;
   }
 }
 
