@@ -7,6 +7,7 @@
         {{-- left footer  --}}
         <div class="left_footer">
             <small>©All rigths reserved</small>
+            <p>made By DC</p>
         </div>
         {{-- right footer  --}}
         <div class="right_footer">

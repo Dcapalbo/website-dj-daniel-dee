@@ -18,7 +18,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-easter-set-2019/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_easter_2019.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-bar-del-mar-rosario/")}} target="_blank"><img src="{{asset('img/Mix_pictures/DSC00148.png')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -42,7 +42,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-reverb-091119/")}} target="_blank"><img src="{{asset('img/Mix_pictures/DSC00142.png')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-closing-party-khoema-infunzione-261020/")}} target="_blank"><img src="{{asset('img/Mix_pictures/DSC00182.png')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -66,7 +66,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-bar-del-mar-rosario/")}} target="_blank"><img src="{{asset('img/Mix_pictures/DSC00148.png')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-easter-set-2019/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_easter_2019.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -78,7 +78,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-closing-party-khoema-infunzione-261020/")}} target="_blank"><img src="{{asset('img/Mix_pictures/DSC00182.png')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-reverb-091119/")}} target="_blank"><img src="{{asset('img/Mix_pictures/DSC00142.png')}}" alt="Album_image"></a>
             </div>
         </div>
     </div>
