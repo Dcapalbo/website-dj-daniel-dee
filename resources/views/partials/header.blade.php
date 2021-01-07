@@ -48,7 +48,8 @@
       {{-- modal tour bg  --}}
       <div class="modal_tour_bg">
         <div class="modal_tour_content">
-            <img src="{{asset('img/tourargentina1tour.png')}}" alt="Image_Argentina_tour">
+            <img src="{{asset('img/TOUR_ARGENTINA_2019.png')}}" alt="Image_Argentina_tour_2019">
+            <img src="{{asset('img/TOUR_ARGENTINA_2020.png')}}" alt="image_Argentina_tour_2020">
             <span class="close_tour">X</span>
         </div>
       </div>

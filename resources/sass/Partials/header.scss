@@ -120,21 +120,26 @@
 .modal_tour_bg {
     justify-content: center;
     @include modalGeneric;
+    align-items: center;
+    display: flex;
     // modal tour content
     .modal_tour_content {
+        justify-content: space-around;
         font-family: $secondFont;
-        @include modalContent;
+        align-items: center;
+        border-radius: 5px;
         position: relative;
         padding: 10px 30px;
         line-height: 35px;
         min-height: 700px;
         min-width: 300px;
+        display: flex;
         padding: 0;
         margin: 0;
         img {
             border-radius: 5px;
-            height: 100%;
-            width: 100%;
+            height: 650px;
+            width: 650px;
         }
         .close_tour {
             transform: translate(-50%, -50%);
@@ -201,6 +206,42 @@ body.modal_open {
             opacity: 1;
         }
     }
+    // modal tour content
+    .modal_tour_content {
+        font-family: $secondFont;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        position: relative;
+        padding: 10px 30px;
+        line-height: 35px;
+        height: 500px;
+        width: 300px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        img {
+            border-radius: 5px;
+            width: 100000px;
+            height: 100000px;
+        }
+        .close_tour {
+            transform: translate(-50%, -50%);
+            font-family: $firstFont;
+            position: absolute;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 25px;
+            bottom: 10px;
+            left: 50%;
+            &:hover {
+                color: crimson;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        } 
+    }
     .modal_bio_content {
         font-size: 10px;
         line-height: 20px;
@@ -230,7 +271,7 @@ body.modal_open {
     body.modal_open {
         overflow: scroll;
         height: 100vh;
-      }
+    }
 }  
 // tablet 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -269,6 +310,41 @@ body.modal_open {
             opacity: 1;
         }
     }
+    // modal tour content
+    .modal_tour_content {
+        justify-content: space-around;
+        font-family: $secondFont;
+        align-items: center;
+        border-radius: 5px;
+        position: relative;
+        padding: 10px 30px;
+        line-height: 35px;
+        min-height: 700px;
+        min-width: 300px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        img {
+            border-radius: 5px;
+            max-height: 400px;
+            max-width: 400px;
+        }
+        .close_tour {
+            transform: translate(-50%, -50%);
+            font-family: $firstFont;
+            position: absolute;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 25px;
+            bottom: 10px;
+            left: 50%;
+            &:hover {
+                color: crimson;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        } 
+    }
 }
 // desktop 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -306,5 +382,40 @@ body.modal_open {
             display: inline;
             opacity: 1;
         }
+    }
+    // modal tour content
+    .modal_tour_content {
+        justify-content: space-around;
+        font-family: $secondFont;
+        align-items: center;
+        border-radius: 5px;
+        position: relative;
+        padding: 10px 30px;
+        line-height: 35px;
+        min-height: 700px;
+        min-width: 300px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        img {
+            border-radius: 5px;
+            max-height: 500px;
+            max-width: 500px;
+        }
+        .close_tour {
+            transform: translate(-50%, -50%);
+            font-family: $firstFont;
+            position: absolute;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 25px;
+            bottom: 10px;
+            left: 50%;
+            &:hover {
+                color: crimson;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        } 
     }
 }  
