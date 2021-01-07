@@ -822,8 +822,8 @@ body.modal_open {
   position: relative;
   margin: 40px 20px;
   transition: 0.3s;
-  width: 320px;
-  height: 250px;
+  min-height: 300px;
+  min-width: 300px;
 }
 
 .first_main_section .main_wrapper .mix_item .mix_item_info {
@@ -858,8 +858,8 @@ body.modal_open {
 .first_main_section .main_wrapper .mix_item .overlay_mix img {
   border-radius: 5px;
   transition: 0.3s;
-  width: 320px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
   opacity: 1;
 }
 
