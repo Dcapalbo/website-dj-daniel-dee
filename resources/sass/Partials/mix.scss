@@ -20,8 +20,8 @@
             position: relative;
             margin: 40px 20px;
             transition: 0.3s;
-            min-height: 300px;
-            min-width: 300px;
+            max-height: 300px;
+            max-width: 300px;
             // mix item info 
             .mix_item_info {
                 transform: translate(-50%,-50%);

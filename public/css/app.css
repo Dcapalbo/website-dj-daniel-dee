@@ -822,8 +822,8 @@ body.modal_open {
   position: relative;
   margin: 40px 20px;
   transition: 0.3s;
-  min-height: 300px;
-  min-width: 300px;
+  max-height: 300px;
+  max-width: 300px;
 }
 
 .first_main_section .main_wrapper .mix_item .mix_item_info {
