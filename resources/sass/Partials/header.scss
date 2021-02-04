@@ -56,10 +56,10 @@
             opacity: 0;
             top: 11px;
         }
-    }
-    .hamburgher:hover .dropdown_list_item{
-        display: inline;
-        opacity: 1;
+        &:hover .dropdown_list_item {
+            display: inline;
+            opacity: 1;     
+        }
     }
 }
 // modal contact
@@ -95,8 +95,8 @@
         font-family: $secondFont;
         @include modalContent;
         padding: 10px 30px;
-        overflow: auto;
         line-height: 35px;
+        overflow: auto;
         margin: auto;
         width: 90%;
         h3 {
@@ -148,8 +148,8 @@
             font-weight: bold;
             transition: 0.3s;
             font-size: 25px;
-            bottom: 10px;
-            left: 50%;
+            left: 20px;
+            top: 50px;
             &:hover {
                 color: crimson;
                 cursor: pointer;
@@ -166,186 +166,9 @@
 body.modal_open {
     overflow: hidden;
     height: 100vh;
-  }
+}
 // end header
 // responsive 
-// mobile
-@media screen and (min-width: 0px) and (max-width: 767px) {
-    .header_top {
-        background-color: lightblue;
-        font-family:$firstFont;
-        font-weight: bold;
-        position: fixed;
-        height: 60px;
-        width: 100%;
-        z-index: 1;
-        .hamburgher {
-            position: relative;
-            font-size: 15px;
-            cursor: pointer;
-            display: block;
-            .dropdown_list_item {
-                transform: translate(-50%,-50%);
-                border: 1px solid #000;
-                font-family:$firstFont;
-                background-color: #84D2CB;
-                border-radius: 10px;
-                position: absolute;
-                transition: 1.2s;
-                cursor: pointer;
-                width: 150px;
-                left:-75px;
-                top: 78px;
-                li {
-                    line-height: 25px;
-                }
-            }
-        }
-        .hamburgher:hover .dropdown_list_item{
-            display: inline-block;
-            opacity: 1;
-        }
-    }
-    // modal tour content
-    .modal_tour_content {
-        justify-content: space-around;
-        font-family: $secondFont;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 5px;
-        position: relative;
-        padding: 10px 30px;
-        line-height: 35px;
-        min-height: 700px;
-        min-width: 300px;
-        display: flex;
-        padding: 0;
-        margin: 0;
-        img {
-            border-radius: 5px;
-            max-height: 450px;
-            max-width: 400px;
-        }
-        .close_tour {
-            transform: translate(-50%, -50%);
-            font-family: $firstFont;
-            position: absolute;
-            font-weight: bold;
-            transition: 0.3s;
-            font-size: 25px;
-            bottom: 10px;
-            left: 50%;
-            &:hover {
-                color: crimson;
-                cursor: pointer;
-                opacity: 0.8;
-            }
-        } 
-    }
-    .modal_bio_content {
-        font-size: 10px;
-        line-height: 20px;
-        background-color: lightblue;
-        font-family: $secondFont;
-        @include modalContent;
-        overflow-y: auto;
-        margin: auto;
-        height: 100%;
-        width: 100%;
-        h3 {
-            font-family: $firstFont;
-        }
-        .close_bio {
-            font-family: $firstFont;
-            font-weight: bold;
-            transition: 0.3s;
-            font-size: 15px;
-            &:hover {
-                transform: scale(1.15);
-                color: crimson;
-                cursor: pointer;
-                opacity: 0.8;
-            }
-        } 
-    }
-    body.modal_open {
-        overflow: scroll;
-        height: 100vh;
-    }
-}  
-// tablet 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .header_top {
-        background-color: lightblue;
-        font-family:$firstFont;
-        font-weight: bold;
-        position: fixed;
-        height: 60px;
-        width: 100%;
-        z-index: 1;
-        .hamburgher {
-            position: relative;
-            font-size: 15px;
-            cursor: pointer;
-            display: block;
-            .dropdown_list_item {
-                transform: translate(-50%,-50%);
-                border: 1px solid #000;
-                font-family:$firstFont;
-                background-color: #84D2CB;
-                border-radius: 10px;
-                position: absolute;
-                transition: 1.2s;
-                cursor: pointer;
-                width: 150px;
-                left:-75px;
-                top:78px;
-                li {
-                    line-height: 25px;
-                }
-            }
-        }
-        .hamburgher:hover .dropdown_list_item{
-            display: inline-block;
-            opacity: 1;
-        }
-    }
-    // modal tour content
-    .modal_tour_content {
-        justify-content: space-around;
-        font-family: $secondFont;
-        align-items: center;
-        border-radius: 5px;
-        position: relative;
-        padding: 10px 30px;
-        line-height: 35px;
-        min-height: 700px;
-        min-width: 300px;
-        display: flex;
-        padding: 0;
-        margin: 0;
-        img {
-            border-radius: 5px;
-            max-height: 400px;
-            max-width: 400px;
-        }
-        .close_tour {
-            transform: translate(-50%, -50%);
-            font-family: $firstFont;
-            position: absolute;
-            font-weight: bold;
-            transition: 0.3s;
-            font-size: 25px;
-            bottom: 10px;
-            left: 50%;
-            &:hover {
-                color: crimson;
-                cursor: pointer;
-                opacity: 0.8;
-            }
-        } 
-    }
-}
 // desktop 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .header_top {
@@ -409,8 +232,8 @@ body.modal_open {
             font-weight: bold;
             transition: 0.3s;
             font-size: 25px;
-            bottom: 10px;
-            left: 50%;
+            left: 20px;
+            top: 1200px;
             &:hover {
                 color: crimson;
                 cursor: pointer;
@@ -418,4 +241,204 @@ body.modal_open {
             }
         } 
     }
-}  
+} 
+// tablet 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header_top {
+        background-color: lightblue;
+        font-family:$firstFont;
+        font-weight: bold;
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        z-index: 1;
+        .hamburgher {
+            position: relative;
+            font-size: 15px;
+            cursor: pointer;
+            display: block;
+            .dropdown_list_item {
+                transform: translate(-50%,-50%);
+                border: 1px solid #000;
+                font-family:$firstFont;
+                background-color: #84D2CB;
+                border-radius: 10px;
+                position: absolute;
+                transition: 1.2s;
+                cursor: pointer;
+                width: 150px;
+                left:-75px;
+                top: 78px;
+                li {
+                    line-height: 25px;
+                }
+            }
+        }
+        .hamburgher:hover .dropdown_list_item{
+            display: inline-block;
+            opacity: 1;
+        }
+    }
+    // modal tour content
+    .modal_tour_content {
+        justify-content: space-around;
+        font-family: $secondFont;
+        align-items: center;
+        border-radius: 5px;
+        position: relative;
+        padding: 10px 30px;
+        line-height: 35px;
+        min-height: 700px;
+        min-width: 300px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        img {
+            border-radius: 5px;
+            max-height: 400px;
+            max-width: 400px;
+        }
+        .close_tour {
+            transform: translate(-50%, -50%);
+            font-family: $firstFont;
+            position: absolute;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 25px;
+            left: 20px;
+            top: 50px;
+            &:hover {
+                color: crimson;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        } 
+    }
+}
+// mobile
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .header_top {
+        background-color: lightblue;
+        font-family:$firstFont;
+        font-weight: bold;
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        z-index: 1;
+        .hamburgher {
+            position: relative;
+            font-size: 15px;
+            cursor: pointer;
+            display: block;
+            .dropdown_list_item {
+                transform: translate(-50%,-50%);
+                border: 1px solid #000;
+                font-family:$firstFont;
+                background-color: #84D2CB;
+                border-radius: 10px;
+                position: absolute;
+                transition: 1.2s;
+                cursor: pointer;
+                width: 150px;
+                left:-75px;
+                top: 78px;
+                li {
+                    line-height: 25px;
+                }
+            }
+            &:hover {
+                display: inline-block;
+                opacity: 1;
+            }
+        }
+    }
+    // modal tour content
+    .modal_tour_content {
+        justify-content: space-around;
+        font-family: $secondFont;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        position: relative;
+        padding: 10px 30px;
+        line-height: 35px;
+        min-height: 700px;
+        min-width: 300px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        img {
+            border-radius: 5px;
+            max-height: 450px;
+            max-width: 400px;
+        }
+        .close_tour {
+            transform: translate(-50%, -50%);
+            font-family: $firstFont;
+            position: absolute;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 25px;
+            left: 50%;
+            top: 48%;
+            &:hover {
+                color: crimson;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        } 
+    }
+    .modal_bio_content {
+        font-size: 11px;
+        line-height: 10px;
+        background-color: lightblue;
+        font-family: $secondFont;
+        @include modalContent;
+        overflow-y: auto;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        h3 {
+            font-family: $firstFont;
+        }
+        .close_bio {
+            font-family: $firstFont;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 15px;
+            &:hover {
+                transform: scale(1.15);
+                color: crimson;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        } 
+    }
+    body.modal_open {
+        overflow: scroll;
+        height: 100vh;
+    }
+    // modal contact
+    .modal_contact_bg {
+    @include modalGeneric;
+     justify-content: flex-end;
+     // modal contact content
+     .modal_contact_content {
+         background-color: #84D2CB;
+         font-family: $firstFont;
+         @include modalContent;
+         min-height: 500px;
+         min-width: 100px;
+         a, .close_contact {
+             transition: 0.3s;
+             font-size: 25px;
+             &:hover {
+                 transform: scale(1.15);
+                 color: crimson;
+                 cursor: pointer;
+                 opacity: 0.8;
+             }
+         }
+     }
+ }
+}   

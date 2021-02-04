@@ -23,27 +23,27 @@
     }
 }
 // responsive 
-// mobile 
-@media screen and (min-width: 0px) and (max-width:767px) {
+// desktop 
+@media screen and (min-width:992px) and (max-width: 1200px) {
     .footer {
         background-color: lightblue;
         overflow: hidden;
         position: fixed;
-        height: 60px;
+        height: 80px;
         width: 100%;
         bottom: 0;
         left: 0;
         .footer_wrapper {
-            width: 95%;
-            margin: auto;
+            width: 100%;
             height: 100%;
+            @include genericWrapper;
             @include genericFlex;
             small, h4, p {
                 font-family: $firstFont;
                 padding-left: 30px;
                 font-weight: bold;
-                line-height: 15px;
-                font-size: 8px;
+                line-height: 30px;
+                font-size: 15px;
             } 
         }
     }
@@ -73,26 +73,28 @@
         }
     }
 }
-// desktop 
-@media screen and (min-width:992px) and (max-width: 1200px) {
+// mobile 
+@media screen and (min-width: 0px) and (max-width:767px) {
     .footer {
         background-color: lightblue;
         overflow: hidden;
         position: fixed;
-        height: 80px;
+        padding: 30px;
+        height: 150px;
         width: 100%;
-        bottom: 0;
-        left: 0;
         .footer_wrapper {
-            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+            display: flex;
             height: 100%;
-            @include genericWrapper;
-            @include genericFlex;
+            margin: auto;
+            width: 100%;
             small, h4, p {
                 font-family: $firstFont;
-                padding-left: 30px;
                 font-weight: bold;
-                line-height: 30px;
+                line-height: 15px;
+                margin: 10px 0px;
                 font-size: 15px;
             } 
         }

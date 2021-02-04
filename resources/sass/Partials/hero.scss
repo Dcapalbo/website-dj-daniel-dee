@@ -1,67 +1,67 @@
 // hero
 .hero {
-    width: 100%;
-    height: 100%;
-    position: relative;
     background-color: #111111;
+    position: relative;
+    height: 100%;
+    width: 100%;
     .logo {
-        width: 30%;
-        height: 30%;
-        top: 20%;
-        right: 10%;
         position: absolute;
+        height: 30%;
+        width: 30%;
+        right: 10%;
+        top: 20%;
     }
     .hero_img {
-        width: 80%;
-        height: 100%;
-        overflow: hidden;
         transform: translate(-20%);
+        overflow: hidden;
+        height: 100%;
+        width: 80%;
     }
 }
 // responsive 
 // mobile 
 @media screen and (min-width: 0px) and (max-width:767px) {
     .hero {
-        width: 100%;
-        height: 100%;
-        position: relative;
         background-color: #111111;
-        .logo {
-            width: 30%;
-            height: 30%;
-            top: 35%;
-            right: 10%;
-            position: absolute;
-        }
-    }
-    .hero_img {
-        width: 80%;
+        position: relative;
         height: 100%;
-        overflow: hidden;
-        margin-top: 60px;
-        transform: translate(-20%);
+        width: 100%;
+        .logo {
+            position: absolute;
+            height: 30%;
+            right: 4%;
+            width: 40%;
+            top: 35%;
+        }
+        .hero_img {
+            transform: translate(-20%);
+            overflow: hidden;
+            margin-top: 60px;
+            height: 100%;
+            width: 100%;
+        }
     }
 }
 // tablet 
 @media screen and (min-width: 768px) and (max-width:991px) {
     .hero {
-        width: 100%;
-        height: 100%;
-        position: relative;
         background-color: #111111;
-        .logo {
-            width: 30%;
-            height: 30%;
-            top: 30%;
-            right: 10%;
-            position: absolute;
-        }
-    }
-    .hero_img {
-        width: 80%;
+        position: relative;
         height: 100%;
-        overflow: hidden;
-        margin-top: 50px;
-        transform: translate(-20%);
+        width: 100%;
+        .logo {
+            position: absolute;
+            height: 30%;
+            width: 30%;
+            right: 10%;
+            top: 30%;
+        }
+        .hero_img {
+            transform: translate(-20%);
+            margin-top: 50px;
+            overflow: hidden;
+            height: 100%;
+            width: 80%;
+        }
     }
 }
