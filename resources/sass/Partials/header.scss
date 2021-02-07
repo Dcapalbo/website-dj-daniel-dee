@@ -96,12 +96,14 @@
         font-family: $secondFont;
         @include modalContent;
         padding: 10px 30px;
-        line-height: 35px;
+        line-height: 25px;
         overflow: auto;
         margin: auto;
         width: 90%;
         h3 {
             font-family: $firstFont;
+            padding: 15px 10px;
+            margin: 0px;
         }
         .close_bio {
             font-family: $firstFont;
@@ -129,13 +131,10 @@
         font-family: $secondFont;
         align-items: center;
         border-radius: 5px;
-        position: relative;
-        padding: 10px 30px;
+        position: relative;        
         line-height: 35px;
-        min-height: 700px;
         min-width: 300px;
         display: flex;
-        padding: 0;
         margin: 0;
         img {
             border-radius: 5px;
@@ -214,12 +213,9 @@ body.modal_open {
         align-items: center;
         border-radius: 5px;
         position: relative;
-        padding: 10px 30px;
         line-height: 35px;
-        min-height: 700px;
         min-width: 300px;
         display: flex;
-        padding: 0;
         margin: 0;
         img {
             border-radius: 5px;
@@ -287,12 +283,9 @@ body.modal_open {
         align-items: center;
         border-radius: 5px;
         position: relative;
-        padding: 10px 30px;
         line-height: 35px;
-        min-height: 700px;
         min-width: 300px;
         display: flex;
-        padding: 0;
         margin: 0;
         img {
             border-radius: 5px;
@@ -360,16 +353,13 @@ body.modal_open {
         align-items: center;
         border-radius: 5px;
         position: relative;
-        padding: 10px 30px;
-        line-height: 35px;
-        min-height: 450px;
-        min-width: 360px;
+        min-width: 300px;
         display: flex;
-        padding: 0;
         margin: 0;
         img {
             border-radius: 5px;
             max-height: 320px;
+            margin: 20px 0px;
             max-width: 360px;
         }
         .close_tour {
@@ -397,14 +387,15 @@ body.modal_open {
         margin: auto;
         height: 100%;
         width: 100%;
-        h3 {
-            font-family: $firstFont;
+        h3, p {
+            padding: 0px;
+            margin: 0px;
         }
         .close_bio {
             font-family: $firstFont;
             font-weight: bold;
             transition: 0.3s;
-            font-size: 10px;
+            font-size: 9px;
             &:hover {
                 transform: scale(1.15);
                 color: crimson;

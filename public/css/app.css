@@ -166,7 +166,7 @@ iframe {
   border-radius: 5px;
   display: flex;
   padding: 10px 30px;
-  line-height: 35px;
+  line-height: 25px;
   overflow: auto;
   margin: auto;
   width: 90%;
@@ -174,6 +174,8 @@ iframe {
 
 .modal_bio_bg .modal_bio_content h3 {
   font-family: "Major Mono Display", monospace;
+  padding: 15px 10px;
+  margin: 0px;
 }
 
 .modal_bio_bg .modal_bio_content .close_bio {
@@ -213,12 +215,9 @@ iframe {
   align-items: center;
   border-radius: 5px;
   position: relative;
-  padding: 10px 30px;
   line-height: 35px;
-  min-height: 700px;
   min-width: 300px;
   display: flex;
-  padding: 0;
   margin: 0;
 }
 
@@ -300,12 +299,9 @@ body.modal_open {
     align-items: center;
     border-radius: 5px;
     position: relative;
-    padding: 10px 30px;
     line-height: 35px;
-    min-height: 700px;
     min-width: 300px;
     display: flex;
-    padding: 0;
     margin: 0;
   }
 
@@ -380,12 +376,9 @@ body.modal_open {
     align-items: center;
     border-radius: 5px;
     position: relative;
-    padding: 10px 30px;
     line-height: 35px;
-    min-height: 700px;
     min-width: 300px;
     display: flex;
-    padding: 0;
     margin: 0;
   }
 
@@ -460,18 +453,15 @@ body.modal_open {
     align-items: center;
     border-radius: 5px;
     position: relative;
-    padding: 10px 30px;
-    line-height: 35px;
-    min-height: 450px;
-    min-width: 360px;
+    min-width: 300px;
     display: flex;
-    padding: 0;
     margin: 0;
   }
 
   .modal_tour_content img {
     border-radius: 5px;
     max-height: 320px;
+    margin: 20px 0px;
     max-width: 360px;
   }
 
@@ -507,15 +497,17 @@ body.modal_open {
     width: 100%;
   }
 
-  .modal_bio_content h3 {
-    font-family: "Major Mono Display", monospace;
+  .modal_bio_content h3,
+  .modal_bio_content p {
+    padding: 0px;
+    margin: 0px;
   }
 
   .modal_bio_content .close_bio {
     font-family: "Major Mono Display", monospace;
     font-weight: bold;
     transition: 0.3s;
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .modal_bio_content .close_bio:hover {
