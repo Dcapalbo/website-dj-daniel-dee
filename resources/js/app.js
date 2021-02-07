@@ -62,11 +62,8 @@ closeTour.addEventListener('click', function() {
 // make a scroll function to scroll the dom
 function smoothScroll(elm, duration) {
     var elmPos = elm.getBoundingClientRect().top;
-    console.log(elmPos);
     var startPos = window.pageYOffset;
-    console.log(startPos);
     var dist = elmPos - startPos;
-    console.log(dist);
     var starTime = null;
 
     function animation(currenTime) {
