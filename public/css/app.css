@@ -462,7 +462,7 @@ body.modal_open {
     position: relative;
     padding: 10px 30px;
     line-height: 35px;
-    min-height: 700px;
+    min-height: 650px;
     min-width: 300px;
     display: flex;
     padding: 0;
@@ -471,7 +471,7 @@ body.modal_open {
 
   .modal_tour_content img {
     border-radius: 5px;
-    max-height: 450px;
+    max-height: 430px;
     max-width: 400px;
   }
 
@@ -482,7 +482,7 @@ body.modal_open {
     font-weight: bold;
     transition: 0.3s;
     font-size: 25px;
-    left: 50%;
+    left: -100%;
     top: 48%;
   }
 
@@ -493,8 +493,7 @@ body.modal_open {
   }
 
   .modal_bio_content {
-    font-size: 11px;
-    line-height: 10px;
+    font-size: 9px;
     background-color: lightblue;
     font-family: "Roboto", sans-serif;
     justify-content: space-around;
@@ -516,7 +515,7 @@ body.modal_open {
     font-family: "Major Mono Display", monospace;
     font-weight: bold;
     transition: 0.3s;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .modal_bio_content .close_bio:hover {
@@ -789,7 +788,7 @@ body.modal_open {
     font-weight: bold;
     line-height: 15px;
     margin: 10px 0px;
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
