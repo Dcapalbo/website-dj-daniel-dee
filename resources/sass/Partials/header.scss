@@ -418,27 +418,4 @@ body.modal_open {
         overflow: scroll;
         height: 100vh;
     }
-    // modal contact
-    .modal_contact_bg {
-    @include modalGeneric;
-     justify-content: flex-end;
-     // modal contact content
-     .modal_contact_content {
-         background-color: #84D2CB;
-         font-family: $firstFont;
-         @include modalContent;
-         min-height: 500px;
-         min-width: 100px;
-         a, .close_contact {
-             transition: 0.3s;
-             font-size: 25px;
-             &:hover {
-                 transform: scale(1.15);
-                 color: crimson;
-                 cursor: pointer;
-                 opacity: 0.8;
-             }
-         }
-     }
- }
-}   
+}

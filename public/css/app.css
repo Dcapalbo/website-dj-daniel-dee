@@ -530,47 +530,6 @@ body.modal_open {
     overflow: scroll;
     height: 100vh;
   }
-
-  .modal_contact_bg {
-    background-color: rgba(0, 0, 0, 0.5);
-    align-items: center;
-    visibility: hidden;
-    transition: 1s;
-    position: fixed;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    left: 0;
-    top: 0;
-    justify-content: flex-end;
-  }
-
-  .modal_contact_bg .modal_contact_content {
-    background-color: #84D2CB;
-    font-family: "Major Mono Display", monospace;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-    min-height: 500px;
-    min-width: 100px;
-  }
-
-  .modal_contact_bg .modal_contact_content a,
-  .modal_contact_bg .modal_contact_content .close_contact {
-    transition: 0.3s;
-    font-size: 25px;
-  }
-
-  .modal_contact_bg .modal_contact_content a:hover,
-  .modal_contact_bg .modal_contact_content .close_contact:hover {
-    transform: scale(1.15);
-    color: crimson;
-    cursor: pointer;
-    opacity: 0.8;
-  }
 }
 
 .hero {
@@ -815,8 +774,8 @@ body.modal_open {
 
   .footer .footer_wrapper {
     justify-content: space-between;
-    align-items: flex-start;
     flex-direction: column;
+    align-items: center;
     display: flex;
     height: 100%;
     margin: auto;
