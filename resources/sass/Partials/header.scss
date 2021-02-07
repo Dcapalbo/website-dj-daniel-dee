@@ -72,6 +72,7 @@
         font-family: $firstFont;
         @include modalContent;
         min-height: 40%;
+        padding: 10px;
         min-width: 5%;
         a, .close_contact {
             transition: 0.3s;
@@ -319,7 +320,7 @@ body.modal_open {
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .header_top {
         background-color: lightblue;
-        font-family:$firstFont;
+        font-family: $firstFont;
         font-weight: bold;
         position: fixed;
         height: 80px;
@@ -354,7 +355,6 @@ body.modal_open {
     }
     // modal tour content
     .modal_tour_content {
-        justify-content: space-around;
         font-family: $secondFont;
         flex-direction: column;
         align-items: center;
@@ -362,15 +362,15 @@ body.modal_open {
         position: relative;
         padding: 10px 30px;
         line-height: 35px;
-        min-height: 650px;
-        min-width: 300px;
+        min-height: 450px;
+        min-width: 360px;
         display: flex;
         padding: 0;
         margin: 0;
         img {
             border-radius: 5px;
-            max-height: 430px;
-            max-width: 400px;
+            max-height: 320px;
+            max-width: 360px;
         }
         .close_tour {
             transform: translate(-50%, -50%);

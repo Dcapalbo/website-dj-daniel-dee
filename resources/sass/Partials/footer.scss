@@ -79,8 +79,7 @@
         background-color: lightblue;
         overflow: hidden;
         position: fixed;
-        padding: 30px;
-        height: 150px;
+        height: 80px;
         width: 100%;
         .footer_wrapper {
             justify-content: space-between;
@@ -88,15 +87,20 @@
             align-items: center;
             display: flex;
             height: 100%;
-            margin: auto;
             width: 100%;
             small, h4, p {
                 font-family: $firstFont;
                 font-weight: bold;
-                line-height: 15px;
-                margin: 10px 0px;
-                font-size: 10px;
+                line-height: 10px;
+                font-size: 9px;
+            }
+            .left_footer {
+                padding-top: 5px;
+                padding-bottom: 10px;
             } 
+            .right_footer {
+                padding-bottom: 5px;
+            }
         }
     }
 }
