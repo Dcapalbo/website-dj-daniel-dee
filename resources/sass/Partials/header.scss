@@ -30,7 +30,7 @@
     // list item
     .list_item {
         padding: 10px;
-        transition: 0.4s;
+        transition: 0.3s;
         &:hover {
             @include colorHover;
         }
@@ -48,17 +48,16 @@
             background-color: none;
             border-radius: 10px;
             position: absolute;
-            width: 540px;
-            transition: 1.2s;
             cursor: pointer;
             padding: 15px;
+            display: none;
+            width: 540px;
             left:-250px;
-            opacity: 0;
             top: 11px;
         }
         &:hover .dropdown_list_item {
-            display: inline;
-            opacity: 1;     
+            transition: 0.3s;  
+            display: block;  
         }
     }
 }
@@ -95,8 +94,8 @@
         background-color: lightblue;
         font-family: $secondFont;
         @include modalContent;
-        padding: 10px 30px;
-        line-height: 25px;
+        padding: 10px 15px;
+        line-height: 20px;
         overflow: auto;
         margin: auto;
         width: 90%;
@@ -108,6 +107,7 @@
         .close_bio {
             font-family: $firstFont;
             font-weight: bold;
+            margin-top: 15px;
             transition: 0.3s;
             font-size: 25px;
             &:hover {
@@ -379,12 +379,9 @@ body.modal_open {
         } 
     }
     .modal_bio_content {
-        font-size: 9px;
         background-color: lightblue;
         font-family: $secondFont;
-        @include modalContent;
-        overflow-y: auto;
-        margin: auto;
+        font-size: 12px;
         height: 100%;
         width: 100%;
         h3, p {
@@ -402,10 +399,6 @@ body.modal_open {
                 cursor: pointer;
                 opacity: 0.8;
             }
-        } 
-    }
-    body.modal_open {
-        overflow: scroll;
-        height: 100vh;
+        }
     }
 }

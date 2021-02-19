@@ -3,9 +3,11 @@
     background-color:#132821;
     width: 100%;
     h1 {
+        font-family: $firstFont;
         text-align: center;
         padding-top: 50px;
-        font-family: $firstFont;
+        color: #fff;
+        opacity: 0.8;
     }
     // main wrapper 
     .main_wrapper {

@@ -1,22 +1,19 @@
 
-const { event } = require('jquery');
-const { get } = require('lodash');
-require('./bootstrap');
-
+    const { get } = require('lodash');
+    require('./bootstrap'); 
 // make buttons and bg variables
 // buttons variables
-var modalContactBtn = document.querySelector('.modal_contact_button');
-var modalBioBtn = document.querySelector('.modal_bio_button');
-var modalTourBtn = document.querySelector('.modal_tour_button');
+let modalContactBtn = document.querySelector('.modal_contact_button');
+let modalBioBtn = document.querySelector('.modal_bio_button');
+let modalTourBtn = document.querySelector('.modal_tour_button');
 // modal variables
-var modalContactBg = document.querySelector('.modal_contact_bg');
-var modalBioBg = document.querySelector('.modal_bio_bg');
-var modalTourBg = document.querySelector('.modal_tour_bg');
+let modalContactBg = document.querySelector('.modal_contact_bg');
+let modalBioBg = document.querySelector('.modal_bio_bg');
+let modalTourBg = document.querySelector('.modal_tour_bg');
 // close buttons variable
-var closeContact = document.querySelector('.close_contact');
-var closeBio = document.querySelector('.close_bio');
-var closeTour = document.querySelector('.close_tour');
-
+let closeContact = document.querySelector('.close_contact');
+let closeBio = document.querySelector('.close_bio');
+let closeTour = document.querySelector('.close_tour');
 
 // make a contact button event click function to add the class active
 modalContactBtn.addEventListener('click', function() {
@@ -61,15 +58,15 @@ closeTour.addEventListener('click', function() {
 
 // make a scroll function to scroll the dom
 function smoothScroll(elm, duration) {
-    var elmPos = elm.getBoundingClientRect().top;
-    var startPos = window.pageYOffset;
-    var dist = elmPos - startPos;
-    var starTime = null;
+    let elmPos = elm.getBoundingClientRect().top;
+    let startPos = window.pageYOffset;
+    let dist = elmPos - startPos;
+    let starTime = null;
 
     function animation(currenTime) {
         if (starTime === null) starTime = currenTime;
-        var timeElapsed = currenTime - starTime;
-        var run = ease(timeElapsed, startPos, dist, duration);
+        let timeElapsed = currenTime - starTime;
+        let run = ease(timeElapsed, startPos, dist, duration);
         window.scrollTo(0, run);
         if ( timeElapsed < duration) requestAnimationFrame(animation);
     }
@@ -83,13 +80,13 @@ function smoothScroll(elm, duration) {
     requestAnimationFrame(animation);
 };
 // define mix
-var mix = document.querySelector('.mix');
+let mix = document.querySelector('.mix');
 // define the landing selector of mix 
-var landingMix = document.getElementById('landing_mix');
+let landingMix = document.getElementById('landing_mix');
 // define music 
-var music = document.querySelector('.music');
+let music = document.querySelector('.music');
 // define the landing selector of music 
-var landingMusic = document.getElementById('landing_music');
+let landingMusic = document.getElementById('landing_music');
 // add eventlistener and invoke the smooth function for the landing mix
 mix.addEventListener('click', function() {
         smoothScroll(landingMix, 1000);

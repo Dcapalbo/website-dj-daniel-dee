@@ -20,9 +20,10 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "bootstrap": "^4.5.3",
+        "bootstrap": "^4.6.0",
         "jQuery": "^1.7.4",
         "jquery": "^3.5.1",
+        "jquery.terminal": "^2.22.0",
         "jsdom": "^16.4.0",
         "location": "0.0.1",
         "navigator": "^1.0.1",
