@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    Home
+    Daniel Dee
 @endsection 
 @section('main_content')
 {{-- first main section  --}}
