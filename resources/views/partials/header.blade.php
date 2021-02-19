@@ -59,7 +59,7 @@
     <section>
       {{-- hero  --}}
         <div class="hero">
-          <img class="hero_img" src="{{asset('/img/DSC00165.jpg')}}" alt="Cover Dj">
+          <img class="hero_img" src="{{asset('/img/daniel_dee_hero.jpg')}}" alt="Cover Dj">
           <img class="logo" src="{{asset('/img/DD_bianco.png')}}" alt="logo daniel dee">
         </div>
     </section>
