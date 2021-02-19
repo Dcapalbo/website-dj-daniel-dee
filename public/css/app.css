@@ -119,6 +119,7 @@ body {
 }
 
 .modal_contact_bg .modal_contact_content {
+  justify-content: space-around;
   background-color: #84D2CB;
   font-family: "Major Mono Display", monospace;
   flex-direction: column;
