@@ -463,9 +463,8 @@ body.modal_open {
 
   .modal_tour_content img {
     border-radius: 5px;
-    max-height: 320px;
-    margin: 20px 0px;
-    max-width: 360px;
+    max-height: 300px;
+    max-width: 300px;
   }
 
   .modal_tour_content .close_tour {
