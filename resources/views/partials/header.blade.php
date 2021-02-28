@@ -12,11 +12,11 @@
         <div class="right_info">
           <i class="fas fa-bars hamburgher">
             <ul class="dropdown_list_item">
-              <li class="list_item mix">Mix</li>
-              <li class="list_item music">Music</li>
-              <li class="list_item modal_tour_button">Tour</li>
-              <li class="list_item modal_contact_button">Contacts</li>
-              <li class="list_item modal_bio_button">Bio</li>
+              <a class="list_item mix">Mix</a>
+              <a class="list_item music">Music</a>
+              <a class="list_item modal_tour_button">Tour</a>
+              <a class="list_item modal_contact_button">Contacts</a>
+              <a class="list_item modal_bio_button">Bio</a>
             </ul>
           </i>
         </div>
@@ -30,7 +30,7 @@
             <li><a href={{asset("https://twitter.com/DanielDee06")}} target="_blank"><i class="fab fa-twitter" ></a></i></li>
             <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
             <li><a href={{asset("https://open.spotify.com/artist/73rTSTOwixQnWG9UkOj6QE?si=bwj3OjgpRgyP2vXgLcLrXw")}} target="_blank"><i class="fab fa-spotify"></i></a></li>
-            <span class="close_contact">X</span>
+            <a class="close_contact">X</a>
         </div>
       </div>
       {{-- modal bio bg  --}}
@@ -42,7 +42,7 @@
             <p>Italian</p>
             <h3>Biography</h3>
             <p>Daniel Dee was born in 1982 in Rome, Italy. He started his career as a DJ at the age of 15 working at a famous club in Rome: the NRG (of Ciampino). At that time, the Roman club scene was dominated by the trance-progressive club genre which influenced him greatly. After his first year of performing, he was chosen as the resident DJ of the NRG club becoming one of the most important figures of the best sunday evening in Italy. In 1998 he was played regularly on “Future Zone” on Mondo Radio which was considered at the time the best progressive house radio show of the centre region of Italy. It was on air every Sunday morning from 12am to 01 pm. As time went by widening his musical knowledge he played techno/trance and started to work in music studios creating new original tracks. At the same time he continued to gain experience in studios and playing in clubs, working with other top Dj's of Italy. Most recently, Daniel Dee has put together an original and innovative project: " The Club " which is currently being proposed to the Roman club scene.</p>
-            <span class="close_bio">X</span>
+            <a class="close_bio">X</a>
         </div>
       </div>
       {{-- modal tour bg  --}}
@@ -50,7 +50,7 @@
         <div class="modal_tour_content">
             <img src="{{asset('img/TOUR_ARGENTINA_2019.png')}}" alt="Image_Argentina_tour_2019">
             <img src="{{asset('img/TOUR_ARGENTINA_2020.png')}}" alt="image_Argentina_tour_2020">
-            <span class="close_tour">X</span>
+            <a class="close_tour">X</a>
         </div>
       </div>
     </section>

@@ -364,7 +364,7 @@ body.modal_open {
     top: 78px;
   }
 
-  .header_top .hamburgher .dropdown_list_item li {
+  .header_top .hamburgher .dropdown_list_item a {
     line-height: 25px;
   }
 
@@ -441,7 +441,7 @@ body.modal_open {
     top: 78px;
   }
 
-  .header_top .hamburgher .dropdown_list_item li {
+  .header_top .hamburgher .dropdown_list_item a {
     line-height: 25px;
   }
 
