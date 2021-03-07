@@ -152,5 +152,5 @@ $(document).ready(function() {
         $(music).on('click', function(){
             smoothScroll(landingMusic, 1000);
         });
-    }  
+    }
 });

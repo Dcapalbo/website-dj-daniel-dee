@@ -18,7 +18,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-bar-del-mar-rosario/")}} target="_blank"><img src="{{asset('img/Mix_pictures/Daniel_dee_2.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-closing-party-khoema-infunzione-261020/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_argentina.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -42,7 +42,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-closing-party-khoema-infunzione-261020/")}} target="_blank"><img src="{{asset('img/Mix_pictures/Daniel_dee_3.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-reverb-091119/")}} target="_blank"><img src="{{asset('img/Mix_pictures/Daniel_dee_1.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -54,7 +54,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/djdanieldee-progressive-djset-happyaugust2019/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_reverb.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-bar-del-mar-rosario/")}} target="_blank"><img src="{{asset('img/Mix_pictures/Daniel_dee_2.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -62,11 +62,11 @@
             {{-- music item info  --}}
             <div class="mix_item_info">
                 <h5>Daniel Dee</h5>
-                <small>Dj set August 2019</small>
+                <small>Dj set Quartafestar</small>
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-easter-set-2019/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_easter_2019.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-live-streaming-quartafestar-12112020/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_easter_2019.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -74,11 +74,11 @@
             {{-- music item info  --}}
             <div class="mix_item_info">
                 <h5>Daniel Dee</h5>
-                <small>Dj set Easter 2019</small>
+                <small>Dj set live Quartafestar</small>
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-reverb-091119/")}} target="_blank"><img src="{{asset('img/Mix_pictures/Daniel_dee_1.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-live-streaming-21022021-quartafestar/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_easter_2019.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
     </div>
