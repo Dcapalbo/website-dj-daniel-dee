@@ -30,7 +30,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-dj-set-argentina-techno/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_argentina.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-dj-set-argentina-techno/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_august_2019.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -78,7 +78,7 @@
             </div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-live-streaming-21022021-quartafestar/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_easter_2019.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-live-streaming-21022021-quartafestar/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_reverb.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
     </div>
