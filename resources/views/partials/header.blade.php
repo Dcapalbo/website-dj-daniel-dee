@@ -7,7 +7,7 @@
         {{-- left info  --}}
         <div class="left_info">
             {{-- logo  --}}
-          <img class="header_top_logo" src="{{asset('/img/nero_1.png')}}" alt="logo daniel dee">
+          <img class="header_top_logo" src="{{asset('/img/DD_bianco.png')}}" alt="logo daniel dee">
         </div>
         <div class="right_info">
           <i class="fas fa-bars hamburgher">

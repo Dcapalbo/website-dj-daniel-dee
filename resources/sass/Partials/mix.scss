@@ -1,6 +1,6 @@
 // mix item 
 .first_main_section {
-    background-color:#132821;
+    background-color: #181818;
     width: 100%;
     h1 {
         font-family: $firstFont;
@@ -73,7 +73,6 @@
 // mobile 
 @media screen and (min-width: 0px) and (max-width:767px) {
     .first_main_section {
-        background-color:#132821;
         width: 100%;
         h1 {
             text-align: center;
@@ -98,7 +97,6 @@
 // tablet
 @media screen and (min-width: 768px) and (max-width:991px) {
     .first_main_section {
-        background-color:#132821;
         width: 100%;
         h1 {
             text-align: center;

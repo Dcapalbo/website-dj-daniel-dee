@@ -1,6 +1,6 @@
 //main
 .second_main_section {
-    background-color: #2F4F4F;
+    background-color:#B0AFB0;
     width: 100%;
     h1 {
         font-family: $firstFont;
@@ -21,7 +21,6 @@
 // mobile 
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .second_main_section {
-        background-color: #2F4F4F;
         width: 100%;
         h1 {
             font-family: $firstFont;

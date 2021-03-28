@@ -27,7 +27,7 @@ body {
 }
 
 .header_top {
-  background-color: lightblue;
+  background-color: #353535;
   font-family: "Major Mono Display", monospace;
   font-weight: bold;
   position: fixed;
@@ -81,11 +81,12 @@ body {
   font-size: 18px;
   cursor: pointer;
   display: block;
+  color: #fff;
 }
 
 .header_wrapper .hamburgher .dropdown_list_item {
   transform: translate(-50%, -50%);
-  border: 1px solid #000;
+  border: 1px solid #B0AFB0;
   font-family: "Major Mono Display", monospace;
   background-color: none;
   border-radius: 10px;
@@ -96,6 +97,14 @@ body {
   width: 540px;
   left: -250px;
   top: 11px;
+}
+
+.header_wrapper .hamburgher .dropdown_list_item a {
+  color: #B0AFB0;
+}
+
+.header_wrapper .hamburgher .dropdown_list_item a:hover {
+  color: crimson;
 }
 
 .header_wrapper .hamburgher:hover .dropdown_list_item {
@@ -120,7 +129,7 @@ body {
 
 .modal_contact_bg .modal_contact_content {
   justify-content: space-around;
-  background-color: #84D2CB;
+  background-color: #B0AFB0;
   font-family: "Major Mono Display", monospace;
   flex-direction: column;
   align-items: center;
@@ -161,7 +170,7 @@ body {
 }
 
 .modal_bio_bg .modal_bio_content {
-  background-color: lightblue;
+  background-color: #B0AFB0;
   font-family: "Roboto", sans-serif;
   flex-direction: column;
   align-items: center;
@@ -259,7 +268,6 @@ body.modal_open {
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .header_top {
-    background-color: lightblue;
     font-family: "Major Mono Display", monospace;
     font-weight: bold;
     position: fixed;
@@ -334,7 +342,6 @@ body.modal_open {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .header_top {
-    background-color: lightblue;
     font-family: "Major Mono Display", monospace;
     font-weight: bold;
     position: fixed;
@@ -354,7 +361,6 @@ body.modal_open {
     transform: translate(-50%, -50%);
     border: 1px solid #000;
     font-family: "Major Mono Display", monospace;
-    background-color: #84D2CB;
     border-radius: 10px;
     position: absolute;
     transition: 1.2s;
@@ -411,7 +417,6 @@ body.modal_open {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .header_top {
-    background-color: lightblue;
     font-family: "Major Mono Display", monospace;
     font-weight: bold;
     position: fixed;
@@ -431,7 +436,6 @@ body.modal_open {
     transform: translate(-50%, -50%);
     border: 1px solid #000;
     font-family: "Major Mono Display", monospace;
-    background-color: #84D2CB;
     border-radius: 10px;
     position: absolute;
     transition: 1.2s;
@@ -485,7 +489,6 @@ body.modal_open {
   }
 
   .modal_bio_content {
-    background-color: lightblue;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     height: 100%;
@@ -586,7 +589,7 @@ body.modal_open {
 }
 
 .second_main_section {
-  background-color: #2F4F4F;
+  background-color: #B0AFB0;
   width: 100%;
 }
 
@@ -614,7 +617,6 @@ body.modal_open {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .second_main_section {
-    background-color: #2F4F4F;
     width: 100%;
   }
 
@@ -647,10 +649,11 @@ body.modal_open {
 }
 
 .footer {
-  background-color: lightblue;
+  background-color: #353535;
   overflow: hidden;
   position: fixed;
   height: 130px;
+  color: #fff;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -677,9 +680,12 @@ body.modal_open {
   font-size: 15px;
 }
 
+.right_footer .fa-envelope {
+  color: #fff;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .footer {
-    background-color: lightblue;
     overflow: hidden;
     position: fixed;
     height: 80px;
@@ -712,7 +718,6 @@ body.modal_open {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .footer {
-    background-color: lightblue;
     overflow: hidden;
     position: fixed;
     height: 60px;
@@ -745,7 +750,6 @@ body.modal_open {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .footer {
-    background-color: lightblue;
     overflow: hidden;
     position: fixed;
     height: 80px;
@@ -781,7 +785,7 @@ body.modal_open {
 }
 
 .first_main_section {
-  background-color: #132821;
+  background-color: #181818;
   width: 100%;
 }
 
@@ -863,7 +867,6 @@ body.modal_open {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .first_main_section {
-    background-color: #132821;
     width: 100%;
   }
 
@@ -894,7 +897,6 @@ body.modal_open {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .first_main_section {
-    background-color: #132821;
     width: 100%;
   }
 
