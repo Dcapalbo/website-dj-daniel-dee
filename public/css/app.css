@@ -285,9 +285,9 @@ body.modal_open {
 
   .header_top .hamburgher .dropdown_list_item {
     transform: translate(-50%, -50%);
-    border: 1px solid #000;
     font-family: "Major Mono Display", monospace;
-    background-color: none;
+    border: 1px solid #000;
+    background-color: #353535;
     border-radius: 10px;
     position: absolute;
     transition: 1.2s;
@@ -358,9 +358,10 @@ body.modal_open {
   }
 
   .header_top .hamburgher .dropdown_list_item {
-    transform: translate(-50%, -50%);
-    border: 1px solid #000;
     font-family: "Major Mono Display", monospace;
+    transform: translate(-50%, -50%);
+    background-color: #353535;
+    border: 1px solid #000;
     border-radius: 10px;
     position: absolute;
     transition: 1.2s;
@@ -433,9 +434,10 @@ body.modal_open {
   }
 
   .header_top .hamburgher .dropdown_list_item {
-    transform: translate(-50%, -50%);
-    border: 1px solid #000;
     font-family: "Major Mono Display", monospace;
+    transform: translate(-50%, -50%);
+    background-color: #353535;
+    border: 1px solid #000;
     border-radius: 10px;
     position: absolute;
     transition: 1.2s;
