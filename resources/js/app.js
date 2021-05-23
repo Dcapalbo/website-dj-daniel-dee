@@ -153,4 +153,8 @@ $(document).ready(function() {
             smoothScroll(landingMusic, 1000);
         });
     }
+    container.addEventListener('touchstart', () => {});
+    container.addEventListener('touchend', () => {});
+    container.addEventListener('touchcancel', () => {});
+    container.addEventListener('touchmove', () => {});
 });
