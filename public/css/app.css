@@ -549,9 +549,9 @@ body.modal_open {
 
   .hero .logo {
     position: absolute;
-    height: 30%;
+    height: 65px;
+    width: 160px;
     right: 4%;
-    width: 40%;
     top: 35%;
   }
 
