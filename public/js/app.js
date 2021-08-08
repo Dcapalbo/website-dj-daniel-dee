@@ -236,6 +236,11 @@ $(document).ready(function () {
       smoothScroll(landingMusic, 1000);
     });
   }
+
+  container.addEventListener('touchstart', function () {});
+  container.addEventListener('touchend', function () {});
+  container.addEventListener('touchcancel', function () {});
+  container.addEventListener('touchmove', function () {});
 });
 
 /***/ }),

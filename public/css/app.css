@@ -22,7 +22,7 @@ iframe {
   border-radius: 10px;
 }
 
-body {
+html {
   scroll-behavior: smooth;
 }
 
@@ -285,9 +285,9 @@ body.modal_open {
 
   .header_top .hamburgher .dropdown_list_item {
     transform: translate(-50%, -50%);
-    font-family: "Major Mono Display", monospace;
     border: 1px solid #000;
-    background-color: #353535;
+    font-family: "Major Mono Display", monospace;
+    background-color: none;
     border-radius: 10px;
     position: absolute;
     transition: 1.2s;
@@ -358,10 +358,9 @@ body.modal_open {
   }
 
   .header_top .hamburgher .dropdown_list_item {
-    font-family: "Major Mono Display", monospace;
     transform: translate(-50%, -50%);
-    background-color: #353535;
     border: 1px solid #000;
+    font-family: "Major Mono Display", monospace;
     border-radius: 10px;
     position: absolute;
     transition: 1.2s;
@@ -434,10 +433,9 @@ body.modal_open {
   }
 
   .header_top .hamburgher .dropdown_list_item {
-    font-family: "Major Mono Display", monospace;
     transform: translate(-50%, -50%);
-    background-color: #353535;
     border: 1px solid #000;
+    font-family: "Major Mono Display", monospace;
     border-radius: 10px;
     position: absolute;
     transition: 1.2s;
@@ -528,6 +526,7 @@ body.modal_open {
 .hero .logo {
   position: absolute;
   height: 30%;
+  width: 30%;
   right: 10%;
   top: 20%;
 }
@@ -549,9 +548,9 @@ body.modal_open {
 
   .hero .logo {
     position: absolute;
-    height: 65px;
-    width: 160px;
+    height: 30%;
     right: 4%;
+    width: 40%;
     top: 35%;
   }
 
@@ -575,6 +574,7 @@ body.modal_open {
   .hero .logo {
     position: absolute;
     height: 30%;
+    width: 30%;
     right: 10%;
     top: 30%;
   }

@@ -6,79 +6,34 @@
 {{-- first main section  --}}
 <section class="first_main_section">
     {{-- landing voice  --}}
-    <h1 id="landing_mix">Mix</h1>
+    <h1 id="landing_mix">Channel</h1>
     {{-- main wrapper  --}}
     <div class="main_wrapper">
         {{-- music item  --}}
         <div class="mix_item">
             {{-- music item info  --}}
-            <div class="mix_item_info">
-                <h5>Daniel Dee</h5>
-                <small>Dj set, closing party Khoema</small>
-            </div>
+            <div class="mix_item_info"></div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-closing-party-khoema-infunzione-261020/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_argentina.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://soundcloud.com/info48")}} target="_blank"><img src="{{asset('img/cover_soundcloud.jpg')}}" alt="Soundcloud Cover"></a>
             </div>
         </div>
         {{-- music item  --}}
         <div class="mix_item">
             {{-- music item info  --}}
-            <div class="mix_item_info">
-                <h5>Daniel Dee</h5>
-                <small>Dj set Argentina</small>
-            </div>
+            <div class="mix_item_info"></div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-dj-set-argentina-techno/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_august_2019.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><img src="{{asset('img/cover_mixcloud.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
         <div class="mix_item">
             {{-- music item info  --}}
-            <div class="mix_item_info">
-                <h5>Daniel Dee</h5>
-                <small>Dj set Reverb</small>
-            </div>
+            <div class="mix_item_info"></div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-reverb-091119/")}} target="_blank"><img src="{{asset('img/Mix_pictures/Daniel_dee_1.jpg')}}" alt="Album_image"></a>
-            </div>
-        </div>
-        {{-- music item  --}}
-        <div class="mix_item">
-            {{-- music item info  --}}
-            <div class="mix_item_info">
-                <h5>Daniel Dee</h5>
-                <small>Dj set Bar del Mar Rosario (Argentina)</small>
-            </div>
-            {{-- overlay mix  --}}
-            <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-bar-del-mar-rosario/")}} target="_blank"><img src="{{asset('img/Mix_pictures/Daniel_dee_2.jpg')}}" alt="Album_image"></a>
-            </div>
-        </div>
-        {{-- music item  --}}
-        <div class="mix_item">
-            {{-- music item info  --}}
-            <div class="mix_item_info">
-                <h5>Daniel Dee</h5>
-                <small>Dj set Quartafestar</small>
-            </div>
-            {{-- overlay mix  --}}
-            <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-live-streaming-quartafestar-12112020/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_easter_2019.jpg')}}" alt="Album_image"></a>
-            </div>
-        </div>
-        {{-- music item  --}}
-        <div class="mix_item">
-            {{-- music item info  --}}
-            <div class="mix_item_info">
-                <h5>Daniel Dee</h5>
-                <small>Dj set live Quartafestar</small>
-            </div>
-            {{-- overlay mix  --}}
-            <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/daniel-dee-live-streaming-21022021-quartafestar/")}} target="_blank"><img src="{{asset('img/Mix_pictures/mix_reverb.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://www.youtube.com/channel/UCmltOkvTXEp6SaDOVnkvbUg/featured")}} target="_blank"><img src="{{asset('img/cover_youtube.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
     </div>
