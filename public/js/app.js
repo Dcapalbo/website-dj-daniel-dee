@@ -110,7 +110,6 @@ $(document).ready(function () {
       type: 'bullets'
     }
   });
-  console.log(picturesSwiper);
 });
 
 /***/ }),

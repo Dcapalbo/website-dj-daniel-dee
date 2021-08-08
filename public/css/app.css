@@ -228,8 +228,21 @@ html {
   margin: 10px 0px;
 }
 
-.modal_bg .modal_bio_content h3 {
+.modal_bg .modal_bio_content h3,
+.modal_bg .modal_bio_content a {
   font-family: "Major Mono Display", monospace;
+}
+
+.modal_bg .modal_bio_content a {
+  transition: 0.2s;
+}
+
+.modal_bg .modal_bio_content a:hover {
+  color: crimson;
+  transition: 0.2s;
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 0.8;
 }
 
 .modal_bg .modal_bio_content p {

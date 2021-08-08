@@ -137,8 +137,18 @@
         h3, p, a {
             margin: 10px 0px;
         }
-        h3 {
+        h3, a {
             font-family: $firstFont;
+        }
+        a {
+            transition: 0.2s;
+            &:hover {
+                color: crimson;
+                transition: 0.2s;
+                cursor: pointer;
+                font-size: 15px;
+                opacity: 0.8;
+            }
         }
         p {
             font-family: $secondFont;
