@@ -5,8 +5,41 @@
 @section('main_content')
 {{-- first main section  --}}
 <section class="first_main_section">
+    {{-- modal pictures bg  --}}
+    <div id="pictures_modal" class="modal_bg">
+        <div class="modal_pictures_content">
+          <!-- Slider main container -->
+            <div class="swiper-container pictures_swiper_container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img class="single_picture" src="{{asset('img/picture_dd_1.jpg')}}" alt="picture_dd_1">
+                </div>
+                <div class="swiper-slide">
+                  <img class="single_picture" src="{{asset('img/picture_dd_2.jpg')}}" alt="picture_dd_2">
+                </div>
+                <div class="swiper-slide">
+                  <img class="single_picture" src="{{asset('img/picture_dd_3.jpg')}}" alt="picture_dd_3">
+                </div>
+                <div class="swiper-slide">
+                  <img class="single_picture" src="{{asset('img/picture_dd_4.jpg')}}" alt="picture_dd_4">
+                </div>
+                <div class="swiper-slide">
+                  <img class="single_picture" src="{{asset('img/picture_dd_6.jpg')}}" alt="picture_dd_6">
+                </div>
+                <div class="swiper-slide">
+                  <img class="single_picture" src="{{asset('img/picture_dd_5.jpg')}}" alt="picture_dd_5">
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div> 
+            </div>
+            <a class="uk-modal-close close_modal absolute_close_modal white">X</a>
+        </div>
+      </div>
     {{-- landing voice  --}}
-    <h1 id="landing_mix">Channel</h1>
+    <h1 id="landing_channel">Channel</h1>
     {{-- main wrapper  --}}
     <div class="main_wrapper">
         {{-- music item  --}}

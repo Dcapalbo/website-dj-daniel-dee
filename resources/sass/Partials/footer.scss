@@ -21,11 +21,15 @@
             line-height: 30px;
             font-size: 15px;
         } 
-    }
-}
-.right_footer {
-    .fa-envelope {
-        color: #fff;
+        small > a {
+            transition: 0.2s;
+            color: #fff;
+            &:hover {
+                color: crimson !important;
+                transition: 0.2s;
+                font-size: 15px;
+            }
+        }
     }
 }
 // responsive 
@@ -82,7 +86,7 @@
     .footer {
         overflow: hidden;
         position: fixed;
-        height: 80px;
+        height: 100px;
         width: 100%;
         .footer_wrapper {
             justify-content: space-between;

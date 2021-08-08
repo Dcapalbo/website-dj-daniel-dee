@@ -10,8 +10,12 @@ li {
     display: inline;
 }
 
+#landing_music {
+    color: #000 !important;
+}
+
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #000;
 }
 
@@ -25,4 +29,24 @@ iframe {
 
 html {
     scroll-behavior: smooth;
+}
+
+.absolute_close_modal {
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.white {
+    color: $white;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 0px !important;
+    width: 15% !important;
+}
+
+@media (max-width: 767px) {
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        width: 0% !important;
+    }
 }
