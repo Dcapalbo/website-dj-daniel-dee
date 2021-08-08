@@ -233,11 +233,11 @@ html {
   font-family: "Major Mono Display", monospace;
 }
 
-.modal_bg .modal_bio_content a {
+.modal_bg .modal_bio_content .download {
   transition: 0.2s;
 }
 
-.modal_bg .modal_bio_content a:hover {
+.modal_bg .modal_bio_content .download:hover {
   color: crimson;
   transition: 0.2s;
   cursor: pointer;

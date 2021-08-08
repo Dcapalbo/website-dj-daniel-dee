@@ -140,7 +140,7 @@
         h3, a {
             font-family: $firstFont;
         }
-        a {
+        .download {
             transition: 0.2s;
             &:hover {
                 color: crimson;
