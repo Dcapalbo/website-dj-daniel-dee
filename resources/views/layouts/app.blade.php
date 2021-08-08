@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="css/uikit.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="css/uikit.css"/>
     <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" type="image/png" href="/img/logominuscolo.png"/>
     <title>@yield('title', 'Daniel dee')</title>
