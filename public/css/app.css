@@ -344,6 +344,32 @@ html {
   width: 80%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hero {
+    background-color: #111111;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero .logo {
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: absolute;
+    height: 30%;
+    right: 10%;
+    top: 30%;
+  }
+
+  .hero .hero_img {
+    transform: translate(-20%);
+    margin-top: 50px;
+    overflow: hidden;
+    height: 100%;
+    width: 80%;
+  }
+}
+
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .hero {
     background-color: #111111;
@@ -353,8 +379,10 @@ html {
   }
 
   .hero .logo {
+    -o-object-fit: contain;
+       object-fit: contain;
     position: absolute;
-    height: 30%;
+    height: 25%;
     right: 4%;
     width: 40%;
     top: 35%;
@@ -366,31 +394,6 @@ html {
     margin-top: 60px;
     height: 100%;
     width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .hero {
-    background-color: #111111;
-    position: relative;
-    height: 100%;
-    width: 100%;
-  }
-
-  .hero .logo {
-    position: absolute;
-    height: 30%;
-    width: 30%;
-    right: 10%;
-    top: 30%;
-  }
-
-  .hero .hero_img {
-    transform: translate(-20%);
-    margin-top: 50px;
-    overflow: hidden;
-    height: 100%;
-    width: 80%;
   }
 }
 
