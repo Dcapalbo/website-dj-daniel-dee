@@ -30,7 +30,6 @@
             <li><a href={{asset("https://www.facebook.com/DanielDee06?locale=it_IT%2F")}} target="_blank"><i class="fab fa-facebook-square"></a></i></li>
             <li><a href={{asset("https://www.instagram.com/danieldeedj/?fbclid=IwAR0mETN4RKMcM0G1r8nJ5qTLtN7C22p7lJ5gL6OhG8CFboIU3IPgaqztUyI")}} target="_blank"><i class="fab fa-instagram"></a></i></li>
             <li><a href={{asset("https://twitter.com/DanielDee06")}} target="_blank"><i class="fab fa-twitter" ></a></i></li>
-            <li><a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><i class="fab fa-mixcloud"></i></a></li>
             <li><a href={{asset("https://open.spotify.com/artist/73rTSTOwixQnWG9UkOj6QE?si=bwj3OjgpRgyP2vXgLcLrXw")}} target="_blank"><i class="fab fa-spotify"></i></a></li>
             <a class="uk-modal-close close_modal">X</a>
         </div>
