@@ -29,6 +29,10 @@ html {
     scroll-behavior: smooth;
 }
 
+h3, h4 {
+    text-transform: lowercase !important;
+}
+
 .absolute_close_modal {
     transform: translate(-50%, -50%);
     position: absolute;
