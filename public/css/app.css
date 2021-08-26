@@ -18,15 +18,12 @@ a {
   color: #000;
 }
 
-main {
-  text-transform: capitalize;
-}
-
 iframe {
   border-radius: 10px;
 }
 
 html {
+  text-transform: lowercase !important;
   scroll-behavior: smooth;
 }
 
@@ -403,6 +400,7 @@ html {
 }
 
 .second_main_section h1 {
+  text-transform: lowercase;
   font-family: "Major Mono Display", monospace;
   text-align: center;
   padding-top: 50px;
@@ -606,6 +604,7 @@ html {
 }
 
 .first_main_section h1 {
+  text-transform: lowercase;
   font-family: "Major Mono Display", monospace;
   text-align: center;
   padding-top: 50px;
