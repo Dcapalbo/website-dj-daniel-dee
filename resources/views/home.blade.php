@@ -48,7 +48,7 @@
             <div class="mix_item_info"></div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://soundcloud.com/info48")}} target="_blank"><img src="{{asset('img/cover_soundcloud.jpg')}}" alt="Soundcloud Cover"></a>
+                <a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><img src="{{asset('img/cover_mixcloud.jpg')}}" alt="Album_image"></a>
             </div>
         </div>
         {{-- music item  --}}
@@ -57,7 +57,16 @@
             <div class="mix_item_info"></div>
             {{-- overlay mix  --}}
             <div class="overlay_mix">
-                <a href={{asset("https://www.mixcloud.com/daniel-dee/")}} target="_blank"><img src="{{asset('img/cover_mixcloud.jpg')}}" alt="Album_image"></a>
+                <a href={{asset("https://open.spotify.com/artist/73rTSTOwixQnWG9UkOj6QE?si=YZT1_ZDzRKCAZUI9nnQYgg")}} target="_blank"><img src="{{asset('img/Spotify_channel.jpeg')}}" alt="Album_image"></a>
+            </div>
+        </div>
+        {{-- music item  --}}
+        <div class="mix_item">
+            {{-- music item info  --}}
+            <div class="mix_item_info"></div>
+            {{-- overlay mix  --}}
+            <div class="overlay_mix">
+                <a href={{asset("https://soundcloud.com/info48")}} target="_blank"><img src="{{asset('img/cover_soundcloud.jpg')}}" alt="Soundcloud Cover"></a>
             </div>
         </div>
         {{-- music item  --}}

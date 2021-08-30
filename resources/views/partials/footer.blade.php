@@ -12,7 +12,7 @@
         {{-- right footer  --}}
         <div class="right_footer">
             <h4>South American Manager</h4>
-            <small>Julieta Ruffolo  <a href="mailto:quartafest.ar@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></small>
+            <small>Miguel Fragnito  <a href="mailto:bookmandjs@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></small>
         </div>
       </div>
     </section>
