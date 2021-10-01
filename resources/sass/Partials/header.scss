@@ -1,7 +1,7 @@
 // header 
 //header top
 .header_top {
-    background-color: red;
+    background-color: #353535;
     font-family:$firstFont;
     font-weight: bold;
     position: fixed;
@@ -20,9 +20,6 @@
             @include colorHover;
         }
     }
-}
-.swiper-slide {
-    width: 100% !important;
 }
 // header wrapper
 .header_wrapper {
@@ -238,5 +235,18 @@
         }
     }
 }
+
+.swiper-slide {
+    width: 100% !important;
+}
+
+.swiper-pagination {
+    position: relative !important;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0px !important;
+}
+
 
 

@@ -57,7 +57,7 @@ h4 {
 }
 
 .header_top {
-  background-color: red;
+  background-color: #353535;
   font-family: "Major Mono Display", monospace;
   font-weight: bold;
   position: fixed;
@@ -81,10 +81,6 @@ h4 {
   color: crimson;
   cursor: pointer;
   opacity: 0.8;
-}
-
-.swiper-slide {
-  width: 100% !important;
 }
 
 .header_wrapper {
@@ -328,6 +324,21 @@ h4 {
     height: 100%;
     width: 100%;
   }
+}
+
+.swiper-slide {
+  width: 100% !important;
+}
+
+.swiper-pagination {
+  position: relative !important;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 0px !important;
 }
 
 .hero {
