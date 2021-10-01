@@ -152,6 +152,7 @@ h4 {
   opacity: 0;
   left: 0;
   top: 0;
+  overflow-x: hidden;
   display: none;
 }
 
@@ -323,6 +324,18 @@ h4 {
     height: 100%;
     width: 100%;
   }
+}
+
+.swiper-slide {
+  width: 100% !important;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: relative !important;
+  bottom: 0px !important;
 }
 
 .hero {
