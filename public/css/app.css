@@ -57,7 +57,7 @@ h4 {
 }
 
 .header_top {
-  background-color: #353535;
+  background-color: red;
   font-family: "Major Mono Display", monospace;
   font-weight: bold;
   position: fixed;
