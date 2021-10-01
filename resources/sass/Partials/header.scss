@@ -21,6 +21,9 @@
         }
     }
 }
+.swiper-slide {
+    width: 100% !important;
+}
 // header wrapper
 .header_wrapper {
     width: 100%;
@@ -71,6 +74,7 @@
 // modal 
 .modal_bg {
     @include modalGeneric;
+    overflow-x: hidden;
     display: none;
     // modal pictures content
     .modal_pictures_content {
