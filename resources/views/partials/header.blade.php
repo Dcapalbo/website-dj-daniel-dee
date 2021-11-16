@@ -49,8 +49,8 @@
               evening in Italy. In 1998 he was played regularly on “future zone” on mondo radio which was considered at 
               the time the best progressive house radio show of the centre region of italy. it was on air every sunday 
               morning from 12am to 01 pm. as time went by widening his musical knowledge he played techno/progressive and 
-              started to work in music studios creating new original tracks which at the moment has been released on various records such 
-              as Estribo records, Mystic Carousel records and the Hystorical Bonzai records. At the same time he continued to gain 
+              started to work in music studios creating new original tracks which at the moment has been released on various records 
+              among these is the hystorical Bonzai Records. At the same time he continued to gain 
               experience in studios and playing in clubs, working with other top dj's of Italy. most recently, Daniel Dee 
               has put together an original and innovative projects like: "The Club" and "Khoema", which are currently being proposed to the 
               roman club scene.
