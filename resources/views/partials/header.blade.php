@@ -42,16 +42,17 @@
             <p>Italian</p>
             <h3>Biography</h3>
             <p>
-              Daniel Dee was born in 1982 in rome, italy. he started his career as a dj at the age of 15 working at a 
-              famous club in rome: NRG (of ciampino). at that time, the roman best club scene was dominated by the 
+              Daniel Dee was born in 1982 in rome, Italy. he started his career as a dj at the age of 15 working at a 
+              famous club in rome: NRG(of Ciampino). at that time, the roman best club scene was dominated by the 
               trance-progressive club genre which influenced him greatly. after his first year of performing, he was 
-              chosen as the resident dj of the nrg club becoming one of the most important figures of the best sunday 
-              evening in italy. in 1998 he was played regularly on “future zone” on mondo radio which was considered at 
+              chosen as the resident dj of the NRG club becoming one of the most important figures of the best sunday 
+              evening in Italy. In 1998 he was played regularly on “future zone” on mondo radio which was considered at 
               the time the best progressive house radio show of the centre region of italy. it was on air every sunday 
               morning from 12am to 01 pm. as time went by widening his musical knowledge he played techno/progressive and 
-              started to work in music studios creating new original tracks. At the same time he continued to gain 
-              experience in studios and playing in clubs, working with other top dj's of italy. most recently, daniel dee 
-              has put together an original and innovative project: "The Club" which is currently being proposed to the 
+              started to work in music studios creating new original tracks which at the moment has been released on various records such 
+              as Estribo records, Mystic Carousel records and the Hystorical Bonzai records. At the same time he continued to gain 
+              experience in studios and playing in clubs, working with other top dj's of Italy. most recently, Daniel Dee 
+              has put together an original and innovative projects like: "The Club" and "Khoema", which are currently being proposed to the 
               roman club scene.
             </p>
             <a class="uk-modal-close close_modal absolute_close_modal">X</a>
