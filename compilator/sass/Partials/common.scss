@@ -26,11 +26,14 @@ iframe {
 
 
 html {
-    text-transform: lowercase !important;
     scroll-behavior: smooth;
 }
 
 h3, h4 {
+    text-transform: lowercase !important;
+}
+
+footer {
     text-transform: lowercase !important;
 }
 

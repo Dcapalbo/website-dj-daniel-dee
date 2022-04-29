@@ -23,12 +23,15 @@ iframe {
 }
 
 html {
-  text-transform: lowercase !important;
   scroll-behavior: smooth;
 }
 
 h3,
 h4 {
+  text-transform: lowercase !important;
+}
+
+footer {
   text-transform: lowercase !important;
 }
 
@@ -330,11 +333,14 @@ h4 {
   width: 100% !important;
 }
 
+.swiper-pagination {
+  position: relative !important;
+}
+
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  position: relative !important;
   bottom: 0px !important;
 }
 
@@ -514,6 +520,10 @@ h4 {
   color: crimson !important;
   transition: 0.2s;
   font-size: 15px;
+}
+
+.footer .footer_wrapper .right_footer {
+  display: none;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
