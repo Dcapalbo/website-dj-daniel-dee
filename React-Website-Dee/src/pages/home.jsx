@@ -1,5 +1,7 @@
 /** @format */
 
+import '../style/common.scss';
+
 import Channels from '../components/channels/channels';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
