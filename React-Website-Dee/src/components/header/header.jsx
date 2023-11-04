@@ -1,9 +1,13 @@
 /** @format */
 import DanielDeeHero from '../../assets/provadaniel_sito.png';
+import MobileNavigation from '../mobileNav/mobileNav';
+import React, { useState, useEffect } from 'react';
 import Nav from '../nav/nav';
 import './header.scss';
 
 const Header = () => {
+	const [isMobileView, setIsMobileView] = useState(window.innerWidth < 767);
+
 	const navLinks = [
 		{ text: 'Channel', href: '#landing_channel', className: 'mix' },
 		{ text: 'Music', href: '#landing_music', className: 'music' },
@@ -11,6 +15,16 @@ const Header = () => {
 		{ text: 'Contacts', href: '#contacts_modal', className: '' },
 		{ text: 'Bio', href: '#bio_modal', className: '' },
 	];
+
+	useEffect(() => {
+		const handleResize = () => {
+			setIsMobileView(window.innerWidth < 767);
+		};
+		window.addEventListener('resize', handleResize);
+		return () => {
+			window.removeEventListener('resize', handleResize);
+		};
+	}, []);
 
 	return (
 		<header>
@@ -23,7 +37,7 @@ const Header = () => {
 							alt='logo daniel dee'
 						/>
 					</a>
-					<Nav links={navLinks} />
+					{isMobileView ? <MobileNavigation /> : <Nav links={navLinks} />}
 				</div>
 			</section>
 		</header>
