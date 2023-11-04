@@ -1,8 +1,7 @@
 /** @format */
-
+import DanielDeeHero from '../../assets/provadaniel_sito.png';
 import Nav from '../nav/nav';
-import React from 'react';
-import Button from '@mui/material/Button';
+import './header.scss';
 
 const Header = () => {
 	const navLinks = [
@@ -15,14 +14,18 @@ const Header = () => {
 
 	return (
 		<header>
-			{/* Resto del codice */}
-			<div className='right_info'>
-				<i className='fas fa-bars hamburgher'>
+			<section className='header_top'>
+				<div className='header_wrapper'>
+					<a href='#hero_section'>
+						<img
+							className='header_top_logo'
+							src={DanielDeeHero}
+							alt='logo daniel dee'
+						/>
+					</a>
 					<Nav links={navLinks} />
-					<Button variant='contained'>Hello world</Button>
-				</i>
-			</div>
-			{/* Resto del codice */}
+				</div>
+			</section>
 		</header>
 	);
 };
