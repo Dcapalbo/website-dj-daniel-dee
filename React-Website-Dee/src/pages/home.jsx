@@ -1,6 +1,9 @@
 /** @format */
 
+import Channels from '../components/channels/channels';
 import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
+import Musics from '../components/musics/musics';
 import Hero from '../components/hero/hero';
 
 const Home = () => {
@@ -8,6 +11,9 @@ const Home = () => {
 		<>
 			<Header />
 			<Hero />
+			<Channels />
+			<Musics />
+			<Footer />
 		</>
 	);
 };
