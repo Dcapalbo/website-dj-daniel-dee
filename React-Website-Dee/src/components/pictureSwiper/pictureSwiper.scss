@@ -1,0 +1,16 @@
+/** @format */
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+	bottom: 0px !important;
+	width: 15% !important;
+}
+
+@media (max-width: 767px) {
+	.swiper-pagination-fraction,
+	.swiper-pagination-custom,
+	.swiper-container-horizontal > .swiper-pagination-bullets {
+		width: 0% !important;
+	}
+}

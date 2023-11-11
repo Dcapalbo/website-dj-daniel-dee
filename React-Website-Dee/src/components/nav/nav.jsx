@@ -2,6 +2,7 @@
 import SimpleDialog from '../dialogs/contactsDialogs/contactsDialogs';
 import BioDialog from '../dialogs/bioDialogs/bioDialogs';
 import { useState } from 'react';
+import PicturesSwiper from '../pictureSwiper/PictureSwiper';
 
 const Nav = ({ links }) => {
 	const [openDialog, setOpenDialog] = useState(false);
@@ -26,20 +27,36 @@ const Nav = ({ links }) => {
 						className={`list_item ${link.className}`}
 						href={link.href}
 						onClick={() => {
-							if (link.text === 'Contacts' || link.text === 'Bio') {
+							if (
+								link.text === 'Contacts' ||
+								link.text === 'Bio' ||
+								link.text === 'Photo'
+							) {
 								handleOpenDialog(link.text);
 							}
-						}}
-					>
+						}}>
 						{link.text}
 					</a>
 				))}
 			</ul>
-			{dialogType === 'Contacts' && (
-				<SimpleDialog open={openDialog} onClose={handleCloseDialog} />
+			{dialogType === 'Photo' && (
+				<PicturesSwiper
+					open={openDialog}
+					onClose={handleCloseDialog}
+				/>
 			)}
+			{dialogType === 'Contacts' && (
+				<SimpleDialog
+					open={openDialog}
+					onClose={handleCloseDialog}
+				/>
+			)}
+
 			{dialogType === 'Bio' && (
-				<BioDialog open={openDialog} onClose={handleCloseDialog} />
+				<BioDialog
+					open={openDialog}
+					onClose={handleCloseDialog}
+				/>
 			)}
 		</>
 	);

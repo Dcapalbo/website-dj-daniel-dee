@@ -2,8 +2,8 @@
 
 import '../style/common.scss';
 
+import PicturesSwiper from '../components/pictureSwiper/PictureSwiper';
 import Channels from '../components/channels/channels';
-import PhotosSwiper from '../components/swiper/swiper';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import Musics from '../components/musics/musics';
@@ -17,7 +17,6 @@ const Home = () => {
 			<Channels />
 			<Musics />
 			<Footer />
-			<PhotosSwiper />
 		</>
 	);
 };

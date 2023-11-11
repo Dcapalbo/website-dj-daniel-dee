@@ -11,6 +11,7 @@ import React, { useState } from 'react';
 import Drawer from '@mui/joy/Drawer';
 import List from '@mui/joy/List';
 import Box from '@mui/joy/Box';
+import PicturesSwiper from '../pictureSwiper/PictureSwiper';
 
 const MobileNavigation = () => {
 	const [open, setOpen] = useState(false);
@@ -29,10 +30,15 @@ const MobileNavigation = () => {
 
 	return (
 		<>
-			<IconButton color='danger' onClick={() => setOpen(true)}>
+			<IconButton
+				color='danger'
+				onClick={() => setOpen(true)}>
 				<ClearAllIcon fontSize='large' />
 			</IconButton>
-			<Drawer open={open} color='danger' onClose={() => setOpen(false)}>
+			<Drawer
+				open={open}
+				color='danger'
+				onClose={() => setOpen(false)}>
 				<Box
 					sx={{
 						display: 'flex',
@@ -41,18 +47,19 @@ const MobileNavigation = () => {
 						ml: 'auto',
 						mt: 1,
 						mr: 2,
-					}}
-				>
+					}}>
 					<Typography
 						component='label'
 						htmlFor='close-icon'
 						fontSize='sm'
 						fontWeight='lg'
-						sx={{ cursor: 'pointer' }}
-					>
+						sx={{ cursor: 'pointer' }}>
 						Close
 					</Typography>
-					<ModalClose id='close-icon' sx={{ position: 'initial' }} />
+					<ModalClose
+						id='close-icon'
+						sx={{ position: 'initial' }}
+					/>
 				</Box>
 				<List
 					onClick={() => setOpen(false)}
@@ -62,15 +69,16 @@ const MobileNavigation = () => {
 						flex: 'none',
 						fontSize: 'xl',
 						'& > div': { justifyContent: 'center' },
-					}}
-				>
+					}}>
 					<ListItemButton sx={{ fontWeight: 'lg' }}>
 						<a href='#landing_channel'>Channel</a>
 					</ListItemButton>
 					<ListItemButton>
 						<a href='#landing_music'>Music</a>
 					</ListItemButton>
-					<ListItemButton>Photo</ListItemButton>
+					<ListItemButton onClick={() => handleOpenDialog('photo')}>
+						Photo
+					</ListItemButton>
 					<ListItemButton onClick={() => handleOpenDialog('contacts')}>
 						Contacts
 					</ListItemButton>
@@ -79,6 +87,10 @@ const MobileNavigation = () => {
 					</ListItemButton>
 				</List>
 			</Drawer>
+			<PicturesSwiper
+				open={openDialog && dialogType === 'photo'}
+				onClose={handleCloseDialog}
+			/>
 			<SimpleDialog
 				open={openDialog && dialogType === 'contacts'}
 				onClose={handleCloseDialog}
