@@ -7,10 +7,20 @@
 	width: 15% !important;
 }
 
+.swiper_single_image {
+	object-fit: cover;
+	height: 700px;
+	width: 100%;
+}
+
 @media (max-width: 767px) {
 	.swiper-pagination-fraction,
 	.swiper-pagination-custom,
 	.swiper-container-horizontal > .swiper-pagination-bullets {
 		width: 0% !important;
 	}
+}
+
+.no-scroll {
+	overflow: hidden;
 }
