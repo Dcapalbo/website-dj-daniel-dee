@@ -10,7 +10,9 @@ const musicItems = [
 const MusicItem = ({ trackId }) => (
 	<div className='music_item'>
 		<iframe
-			src={`https://embed.beatport.com/?id=${trackId}&type=track`}
+			src={`https://embed.beatport.com/?id=${trackId}&type=${
+				trackId === 4263979 ? 'release' : 'track'
+			}`}
 			width='400'
 			height='162'
 			frameBorder='0'
