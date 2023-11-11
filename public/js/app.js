@@ -132,8 +132,8 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/Domenico/Documents/DOMENICO CAPALBO/BOOLEAN_WEB_DEVELOPER/ATOM/website-dj-daniel-dee/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/Domenico/Documents/DOMENICO CAPALBO/BOOLEAN_WEB_DEVELOPER/ATOM/website-dj-daniel-dee/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\omar.capalbo\Desktop\D\website-dj-daniel-dee\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\omar.capalbo\Desktop\D\website-dj-daniel-dee\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
