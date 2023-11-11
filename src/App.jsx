@@ -1,12 +1,35 @@
-import Home from "./pages/home"
+/** @format */
 
-const App =() => {
+import Home from './pages/home';
+import {
+	BrowserRouter as Router,
+	Routes,
+	Route,
+	Navigate,
+} from 'react-router-dom';
 
-  return (
-    <>
-      <Home />
-    </>
-  )
-}
+const App = () => {
+	return (
+		<>
+			<Router>
+				<Routes>
+					<Route
+						path='/'
+						element={<Home />}
+					/>
+					<Route
+						path='*'
+						element={
+							<Navigate
+								to='/'
+								replace
+							/>
+						}
+					/>
+				</Routes>
+			</Router>
+		</>
+	);
+};
 
-export default App
+export default App;
