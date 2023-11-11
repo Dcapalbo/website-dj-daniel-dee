@@ -3,6 +3,7 @@
 import Typography from '@mui/material/Typography';
 import Dialog from '@mui/material/Dialog';
 import List from '@mui/material/List';
+import Button from '@mui/material/Button';
 
 const biographyContent = [
 	{
@@ -48,24 +49,78 @@ const BioDialog = ({ onClose, open }) => {
 			onClose={handleClose}
 			open={open}
 			sx={{
+				overflowY: 'auto',
 				bottom: 'none',
 				top: 'auto',
-			}}
-		>
+				'@media (max-width: 767px)': {
+					overflowY: 'auto',
+					top: 0,
+					m: 0,
+					p: 0,
+				},
+			}}>
 			<List
 				sx={{
 					display: 'flex',
 					flexDirection: 'column',
 					p: 3,
 					textAlign: 'center',
-				}}
-			>
+				}}>
 				{biographyContent.map((item, index) => (
-					<div key={index} sx={{ mb: 2 }}>
-						<Typography variant='h6'>{item.title}</Typography>
-						<Typography variant='body1'>{item.content}</Typography>
+					<div key={index}>
+						<Typography
+							variant='h6'
+							sx={{
+								mb: 1,
+								fontWeight: 'bold',
+								'@media (max-width: 767px)': {
+									fontSize: '14px',
+									mb: 0,
+								},
+							}}>
+							{item.title}
+						</Typography>
+						<Typography
+							variant='body1'
+							sx={{
+								mt: 1,
+								'@media (max-width: 767px)': {
+									fontSize: '12px',
+									mt: 0,
+								},
+							}}>
+							{item.content}
+						</Typography>
 					</div>
 				))}
+
+				{/* Paragrafo e Bottone di Download */}
+				<div sx={{ mt: 2 }}>
+					<Typography
+						variant='body1'
+						sx={{
+							mt: 1,
+							fontWeight: 'bold',
+						}}>
+						Scarica il press kit
+					</Typography>
+					<Button
+						variant='contained'
+						color='primary'
+						size='small'
+						sx={{
+							mt: 1,
+							'&:hover': {
+								backgroundColor: '#C41C1C',
+								transform: 'scale(1.05)',
+								transition: 'background-color 0.3s, transform 0.3s',
+							},
+						}}
+						href='src/assets/cover_mixcloud.jpg'
+						download>
+						Download
+					</Button>
+				</div>
 			</List>
 		</Dialog>
 	);
