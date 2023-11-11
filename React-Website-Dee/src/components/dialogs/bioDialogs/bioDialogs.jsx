@@ -93,8 +93,6 @@ const BioDialog = ({ onClose, open }) => {
 						</Typography>
 					</div>
 				))}
-
-				{/* Paragrafo e Bottone di Download */}
 				<div sx={{ mt: 2 }}>
 					<Typography
 						variant='body1'
