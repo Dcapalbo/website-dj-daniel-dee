@@ -11,7 +11,7 @@ import React, { useState } from 'react';
 import Drawer from '@mui/joy/Drawer';
 import List from '@mui/joy/List';
 import Box from '@mui/joy/Box';
-import PicturesSwiper from '../pictureSwiper/PictureSwiper';
+import PicturesSwiper from '../pictureSwiper/pictureSwiper';
 
 const MobileNavigation = () => {
 	const [open, setOpen] = useState(false);
