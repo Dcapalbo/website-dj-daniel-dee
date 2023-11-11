@@ -13,6 +13,8 @@ const MusicItem = ({ trackId }) => (
 			src={`https://embed.beatport.com/?id=${trackId}&type=track`}
 			width='400'
 			height='162'
+			frameBorder='0'
+			scrolling='no'
 			style={{ maxWidth: '600px' }}></iframe>
 	</div>
 );
