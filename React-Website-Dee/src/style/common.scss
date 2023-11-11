@@ -48,3 +48,16 @@ footer {
 .white {
 	color: $white;
 }
+
+body {
+	scrollbar-width: thin; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+	width: 0.5rem; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #c41c1c; /* Color of the scrollbar thumb */
+	border-radius: 0.25rem; /* Radius of the scrollbar thumb */
+}
