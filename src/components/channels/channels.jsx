@@ -1,25 +1,30 @@
 /** @format */
 import './channels.scss';
 
+import coverSoundcloud from '../../assets/cover_soundcloud.jpg';
+import coverSpotify from '../../assets/Spotify_channel.jpeg';
+import coverMixcloud from '../../assets/cover_mixcloud.jpg';
+import coverYoutube from '../../assets/cover_youtube.jpg';
+
 const channelItems = [
 	{
 		link: 'https://www.mixcloud.com/daniel-dee/',
-		imageSrc: 'src/assets/cover_mixcloud.jpg',
+		imageSrc: { coverMixcloud },
 		altText: 'Album_image',
 	},
 	{
 		link: 'https://open.spotify.com/artist/73rTSTOwixQnWG9UkOj6QE?si=YZT1_ZDzRKCAZUI9nnQYgg',
-		imageSrc: 'src/assets/Spotify_channel.jpeg',
+		imageSrc: { coverSpotify },
 		altText: 'Spotify_image',
 	},
 	{
 		link: 'https://soundcloud.com/info48',
-		imageSrc: 'src/assets/cover_soundcloud.jpg',
+		imageSrc: { coverSoundcloud },
 		altText: 'Soundcloud Cover',
 	},
 	{
 		link: 'https://www.youtube.com/channel/UCmltOkvTXEp6SaDOVnkvbUg/featured',
-		imageSrc: 'src/assets/cover_youtube.jpg',
+		imageSrc: { coverYoutube },
 		altText: 'Youtube_image',
 	},
 ];

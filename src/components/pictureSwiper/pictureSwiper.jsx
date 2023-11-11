@@ -1,6 +1,11 @@
 /** @format */
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import pictureD1 from '../../assets/picture_dd_1.jpg';
+import pictureD2 from '../../assets/picture_dd_2.jpg';
+import pictureD3 from '../../assets/picture_dd_3.jpg';
+import pictureD4 from '../../assets/picture_dd_4.jpg';
+import pictureD5 from '../../assets/picture_dd_5.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Backdrop from '@mui/material/Backdrop';
 import { useEffect } from 'react';
@@ -34,35 +39,35 @@ const PicturesSwiper = ({ onClose, open }) => {
 				<SwiperSlide>
 					<img
 						className='swiper_single_image'
-						src='src\assets\picture_dd_1.jpg'
+						src={pictureD1}
 						alt='picture_dd_1'
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
 						className='swiper_single_image'
-						src='src\assets\picture_dd_2.jpg'
+						src={pictureD2}
 						alt='picture_dd_2'
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
 						className='swiper_single_image'
-						src='src\assets\picture_dd_3.jpg'
+						src={pictureD3}
 						alt='picture_dd_3'
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
 						className='swiper_single_image'
-						src='src\assets\picture_dd_6.jpg'
+						src={pictureD4}
 						alt='picture_dd_6'
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
 						className='swiper_single_image'
-						src='src\assets\picture_dd_5.jpg'
+						src={pictureD5}
 						alt='picture_dd_5'
 					/>
 				</SwiperSlide>
