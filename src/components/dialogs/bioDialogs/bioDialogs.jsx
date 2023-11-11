@@ -126,7 +126,7 @@ const BioDialog = ({ onClose, open }) => {
 					<Typography
 						variant='body1'
 						sx={{ mt: 1, fontWeight: 'bold' }}>
-						Scarica il press kit
+						Download the presskit
 					</Typography>
 					<Button
 						variant='contained'
