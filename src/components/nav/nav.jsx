@@ -1,8 +1,8 @@
 /** @format */
 import SimpleDialog from '../dialogs/contactsDialogs/contactsDialogs';
 import BioDialog from '../dialogs/bioDialogs/bioDialogs';
+import PicturesSwiper from '../pictureSwiper/pictureSwiper';
 import { useState } from 'react';
-import PicturesSwiper from '../pictureSwiper/PictureSwiper';
 
 const Nav = ({ links }) => {
 	const [openDialog, setOpenDialog] = useState(false);
