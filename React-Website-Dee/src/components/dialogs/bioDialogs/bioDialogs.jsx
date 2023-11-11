@@ -1,9 +1,11 @@
 /** @format */
 
+import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import CloseIcon from '@mui/icons-material/Close';
 import Dialog from '@mui/material/Dialog';
-import List from '@mui/material/List';
 import Button from '@mui/material/Button';
+import List from '@mui/material/List';
 
 const biographyContent = [
 	{
@@ -49,16 +51,42 @@ const BioDialog = ({ onClose, open }) => {
 			onClose={handleClose}
 			open={open}
 			sx={{
-				overflowY: 'auto',
 				bottom: 'none',
 				top: 'auto',
 				'@media (max-width: 767px)': {
 					overflowY: 'auto',
-					top: 0,
+					top: 'none',
 					m: 0,
 					p: 0,
 				},
 			}}>
+			<IconButton
+				sx={{
+					position: 'absolute',
+					top: '8px',
+					right: '8px',
+					backgroundColor: '#C41C1C',
+					color: '#fff',
+					zIndex: 1400,
+					'&:hover': {
+						backgroundColor: '#C41C1C',
+						transform: 'scale(1.05)',
+						transition: 'background-color 0.3s, transform 0.3s',
+					},
+					'@media (max-width: 767px)': {
+						width: 30,
+						height: 30,
+					},
+				}}>
+				<CloseIcon
+					onClick={handleClose}
+					sx={{
+						'@media (max-width: 767px)': {
+							width: 25,
+						},
+					}}
+				/>
+			</IconButton>
 			<List
 				sx={{
 					display: 'flex',
@@ -74,7 +102,7 @@ const BioDialog = ({ onClose, open }) => {
 								mb: 1,
 								fontWeight: 'bold',
 								'@media (max-width: 767px)': {
-									fontSize: '14px',
+									fontSize: 15,
 									mb: 0,
 								},
 							}}>
@@ -85,7 +113,7 @@ const BioDialog = ({ onClose, open }) => {
 							sx={{
 								mt: 1,
 								'@media (max-width: 767px)': {
-									fontSize: '12px',
+									fontSize: 12,
 									mt: 0,
 								},
 							}}>
@@ -96,10 +124,7 @@ const BioDialog = ({ onClose, open }) => {
 				<div sx={{ mt: 2 }}>
 					<Typography
 						variant='body1'
-						sx={{
-							mt: 1,
-							fontWeight: 'bold',
-						}}>
+						sx={{ mt: 1 }}>
 						Scarica il press kit
 					</Typography>
 					<Button
@@ -114,7 +139,7 @@ const BioDialog = ({ onClose, open }) => {
 								transition: 'background-color 0.3s, transform 0.3s',
 							},
 						}}
-						href='src/assets/cover_mixcloud.jpg'
+						href='src/assets/daniel_dee_presskit.pdf'
 						download>
 						Download
 					</Button>
