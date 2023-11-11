@@ -82,7 +82,7 @@
 	// modal pictures content
 	.modal_pictures_content {
 		justify-content: space-around;
-		font-family: $secondFont;
+		font-family: $firstFont;
 		align-items: center;
 		border-radius: 5px;
 		position: relative;
@@ -161,7 +161,7 @@
 			}
 		}
 		p {
-			font-family: $secondFont;
+			font-family: $firstFont;
 		}
 	}
 }
