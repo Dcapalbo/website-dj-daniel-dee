@@ -61,6 +61,7 @@ const BioDialog = ({ onClose, open }) => {
 				},
 			}}>
 			<IconButton
+				onClick={handleClose}
 				sx={{
 					position: 'absolute',
 					top: '8px',
@@ -79,7 +80,6 @@ const BioDialog = ({ onClose, open }) => {
 					},
 				}}>
 				<CloseIcon
-					onClick={handleClose}
 					sx={{
 						'@media (max-width: 767px)': {
 							width: 25,
