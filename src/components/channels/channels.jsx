@@ -9,22 +9,22 @@ import coverYoutube from '../../assets/cover_youtube.jpg';
 const channelItems = [
 	{
 		link: 'https://www.mixcloud.com/daniel-dee/',
-		imageSrc: { coverMixcloud },
+		imageSrc: coverMixcloud,
 		altText: 'Album_image',
 	},
 	{
 		link: 'https://open.spotify.com/artist/73rTSTOwixQnWG9UkOj6QE?si=YZT1_ZDzRKCAZUI9nnQYgg',
-		imageSrc: { coverSpotify },
+		imageSrc: coverSpotify,
 		altText: 'Spotify_image',
 	},
 	{
 		link: 'https://soundcloud.com/info48',
-		imageSrc: { coverSoundcloud },
+		imageSrc: coverSoundcloud,
 		altText: 'Soundcloud Cover',
 	},
 	{
 		link: 'https://www.youtube.com/channel/UCmltOkvTXEp6SaDOVnkvbUg/featured',
-		imageSrc: { coverYoutube },
+		imageSrc: coverYoutube,
 		altText: 'Youtube_image',
 	},
 ];

@@ -1,5 +1,6 @@
 /** @format */
 
+import pressKit from '../../../assets/daniel_dee_presskit.pdf';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
@@ -139,7 +140,7 @@ const BioDialog = ({ onClose, open }) => {
 								transition: 'background-color 0.3s, transform 0.3s',
 							},
 						}}
-						href='src/assets/daniel_dee_presskit.pdf'
+						href={pressKit}
 						download>
 						Download
 					</Button>
