@@ -1,6 +1,7 @@
 /** @format */
 
 import SimpleDialog from '../dialogs/contactsDialogs/contactsDialogs';
+import PicturesSwiper from '../pictureSwiper/pictureSwiper';
 import BioDialog from '../dialogs/bioDialogs/bioDialogs';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 import ListItemButton from '@mui/joy/ListItemButton';
@@ -11,7 +12,6 @@ import React, { useState } from 'react';
 import Drawer from '@mui/joy/Drawer';
 import List from '@mui/joy/List';
 import Box from '@mui/joy/Box';
-import PicturesSwiper from '../pictureSwiper/pictureSwiper';
 
 const MobileNavigation = () => {
 	const [open, setOpen] = useState(false);
@@ -27,50 +27,27 @@ const MobileNavigation = () => {
 		setOpenDialog(false);
 		setDialogType(null);
 	};
-
 	return (
 		<>
 			<IconButton
-				color='danger'
+				sx={{ color: 'white' }}
 				onClick={() => setOpen(true)}>
 				<ClearAllIcon fontSize='large' />
 			</IconButton>
 			<Drawer
 				open={open}
-				color='danger'
 				onClose={() => setOpen(false)}>
-				<Box
-					sx={{
-						display: 'flex',
-						alignItems: 'center',
-						gap: 0.5,
-						ml: 'auto',
-						mt: 1,
-						mr: 2,
-					}}>
-					<Typography
-						component='label'
-						htmlFor='close-icon'
-						fontSize='sm'
-						fontWeight='lg'
-						sx={{ cursor: 'pointer' }}>
-						Close
-					</Typography>
-					<ModalClose
-						id='close-icon'
-						sx={{ position: 'initial' }}
-					/>
-				</Box>
 				<List
 					onClick={() => setOpen(false)}
 					size='lg'
 					component='nav'
 					sx={{
-						flex: 'none',
 						fontSize: 'xl',
+						background: '#b0afb0',
 						'& > div': { justifyContent: 'center' },
 					}}>
-					<ListItemButton sx={{ fontWeight: 'lg' }}>
+					<ListItemButton
+						sx={{ fontWeight: 'lg', '&:hover': { backgroundColor: 'blue' } }}>
 						<a href='#landing_channel'>Channel</a>
 					</ListItemButton>
 					<ListItemButton>

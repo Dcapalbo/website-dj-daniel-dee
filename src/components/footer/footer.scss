@@ -21,7 +21,6 @@
 		h4,
 		p {
 			font-family: $firstFont;
-			padding-left: 30px;
 			font-weight: bold;
 			line-height: 30px;
 			font-size: 15px;
@@ -59,7 +58,6 @@
 			h4,
 			p {
 				font-family: $firstFont;
-				padding-left: 30px;
 				font-weight: bold;
 				line-height: 30px;
 				font-size: 15px;
@@ -85,7 +83,6 @@
 			h4,
 			p {
 				font-family: $firstFont;
-				padding-left: 30px;
 				font-weight: bold;
 				line-height: 20px;
 				font-size: 10px;
@@ -103,6 +100,7 @@
 		.footer_wrapper {
 			justify-content: center;
 			align-items: center;
+			overflow: hidden;
 			display: flex;
 			height: 100%;
 			width: 100%;
@@ -113,13 +111,6 @@
 				font-weight: bold;
 				line-height: 10px;
 				font-size: 9px;
-			}
-			.left_footer {
-				padding-top: 5px;
-				padding-bottom: 10px;
-			}
-			.right_footer {
-				padding-bottom: 5px;
 			}
 		}
 	}

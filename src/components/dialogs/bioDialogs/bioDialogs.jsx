@@ -64,12 +64,12 @@ const BioDialog = ({ onClose, open }) => {
 			<IconButton
 				onClick={handleClose}
 				sx={{
-					position: 'absolute',
-					top: '8px',
-					right: '8px',
 					backgroundColor: '#C41C1C',
+					position: 'absolute',
 					color: '#fff',
 					zIndex: 1400,
+					right: '8px',
+					top: '8px',
 					'&:hover': {
 						backgroundColor: '#C41C1C',
 						transform: 'scale(1.05)',
@@ -90,10 +90,15 @@ const BioDialog = ({ onClose, open }) => {
 			</IconButton>
 			<List
 				sx={{
-					display: 'flex',
 					flexDirection: 'column',
-					p: 3,
+					background: '#b0afb0',
 					textAlign: 'center',
+					display: 'flex',
+					color: '#000',
+					p: 2.5,
+					'@media (max-width: 767px)': {
+						p: 1.8,
+					},
 				}}>
 				{biographyContent.map((item, index) => (
 					<div key={index}>
