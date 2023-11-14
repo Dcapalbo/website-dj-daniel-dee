@@ -16,8 +16,7 @@ const socialMediaIcons = [
 	},
 	{
 		icon: <SpotifyIcon />,
-		href:
-			'https://open.spotify.com/artist/73rTSTOwixQnWG9UkOj6QE?si=3fMqaniTR3WP69Oe30qgVA',
+		href: 'https://open.spotify.com/artist/73rTSTOwixQnWG9UkOj6QE?si=3fMqaniTR3WP69Oe30qgVA',
 	},
 	{
 		icon: <SoundCloudIcon />,
@@ -42,9 +41,8 @@ const SimpleDialog = ({ onClose, open }) => {
 		<Dialog
 			onClose={handleClose}
 			open={open}
-			sx={{ display: 'flex', bottom: 'none', left: 'auto' }}
-		>
-			<List>
+			sx={{ display: 'flex', bottom: 'none', left: 'auto' }}>
+			<List sx={{ backgroundColor: '#353535' }}>
 				{socialMediaIcons.map((socialMedia, index) => (
 					<ListItemButton
 						key={index}
@@ -53,13 +51,12 @@ const SimpleDialog = ({ onClose, open }) => {
 						target='_blank'
 						rel='noopener noreferrer'
 						sx={{
-							color: 'black',
+							color: '#fff',
 							transition: 'color 0.2s',
 							'&:hover': {
 								color: '#C41C1C',
 							},
-						}}
-					>
+						}}>
 						{socialMedia.icon}
 					</ListItemButton>
 				))}

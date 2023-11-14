@@ -1,6 +1,7 @@
 /** @format */
 
 import SimpleDialog from '../dialogs/contactsDialogs/contactsDialogs';
+import PicturesSwiper from '../pictureSwiper/pictureSwiper';
 import BioDialog from '../dialogs/bioDialogs/bioDialogs';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 import ListItemButton from '@mui/joy/ListItemButton';
@@ -11,7 +12,6 @@ import React, { useState } from 'react';
 import Drawer from '@mui/joy/Drawer';
 import List from '@mui/joy/List';
 import Box from '@mui/joy/Box';
-import PicturesSwiper from '../pictureSwiper/pictureSwiper';
 
 const MobileNavigation = () => {
 	const [open, setOpen] = useState(false);
@@ -27,24 +27,22 @@ const MobileNavigation = () => {
 		setOpenDialog(false);
 		setDialogType(null);
 	};
-
 	return (
 		<>
 			<IconButton
-				color='danger'
+				sx={{ color: 'white' }}
 				onClick={() => setOpen(true)}>
 				<ClearAllIcon fontSize='large' />
 			</IconButton>
 			<Drawer
 				open={open}
-				color='danger'
 				onClose={() => setOpen(false)}>
 				<Box
 					sx={{
 						display: 'flex',
 						alignItems: 'center',
-						gap: 0.5,
 						ml: 'auto',
+						gap: 0.5,
 						mt: 1,
 						mr: 2,
 					}}>

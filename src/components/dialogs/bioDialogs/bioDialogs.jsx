@@ -90,10 +90,15 @@ const BioDialog = ({ onClose, open }) => {
 			</IconButton>
 			<List
 				sx={{
-					display: 'flex',
 					flexDirection: 'column',
-					p: 3,
+					background: '#353535',
 					textAlign: 'center',
+					display: 'flex',
+					color: '#fff',
+					p: 2.5,
+					'@media (max-width: 767px)': {
+						p: 1.8,
+					},
 				}}>
 				{biographyContent.map((item, index) => (
 					<div key={index}>
