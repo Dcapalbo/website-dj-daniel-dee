@@ -42,7 +42,7 @@ const SimpleDialog = ({ onClose, open }) => {
 			onClose={handleClose}
 			open={open}
 			sx={{ display: 'flex', bottom: 'none', left: 'auto' }}>
-			<List sx={{ backgroundColor: '#353535' }}>
+			<List sx={{ backgroundColor: '#b0afb0' }}>
 				{socialMediaIcons.map((socialMedia, index) => (
 					<ListItemButton
 						key={index}
@@ -51,7 +51,7 @@ const SimpleDialog = ({ onClose, open }) => {
 						target='_blank'
 						rel='noopener noreferrer'
 						sx={{
-							color: '#fff',
+							color: '#000',
 							transition: 'color 0.2s',
 							'&:hover': {
 								color: '#C41C1C',

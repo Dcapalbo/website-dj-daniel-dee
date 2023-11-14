@@ -37,38 +37,17 @@ const MobileNavigation = () => {
 			<Drawer
 				open={open}
 				onClose={() => setOpen(false)}>
-				<Box
-					sx={{
-						display: 'flex',
-						alignItems: 'center',
-						ml: 'auto',
-						gap: 0.5,
-						mt: 1,
-						mr: 2,
-					}}>
-					<Typography
-						component='label'
-						htmlFor='close-icon'
-						fontSize='sm'
-						fontWeight='lg'
-						sx={{ cursor: 'pointer' }}>
-						Close
-					</Typography>
-					<ModalClose
-						id='close-icon'
-						sx={{ position: 'initial' }}
-					/>
-				</Box>
 				<List
 					onClick={() => setOpen(false)}
 					size='lg'
 					component='nav'
 					sx={{
-						flex: 'none',
 						fontSize: 'xl',
+						background: '#b0afb0',
 						'& > div': { justifyContent: 'center' },
 					}}>
-					<ListItemButton sx={{ fontWeight: 'lg' }}>
+					<ListItemButton
+						sx={{ fontWeight: 'lg', '&:hover': { backgroundColor: 'blue' } }}>
 						<a href='#landing_channel'>Channel</a>
 					</ListItemButton>
 					<ListItemButton>
