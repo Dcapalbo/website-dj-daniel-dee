@@ -14,6 +14,7 @@ const MusicItem = ({ trackId }) => (
 				trackId === 4263979 ? 'release' : 'track'
 			}`}
 			width='400'
+			title={trackId}
 			height='162'
 			frameBorder='0'
 			scrolling='no'
