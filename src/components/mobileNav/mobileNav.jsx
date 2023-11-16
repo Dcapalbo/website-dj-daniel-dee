@@ -27,6 +27,10 @@ const MobileNavigation = () => {
 	return (
 		<>
 			<IconButton
+				role='button'
+				type='button'
+				id='mobileNav'
+				aria-label='Mobile nav button'
 				sx={{ color: 'white' }}
 				onClick={() => setOpen(true)}>
 				<ClearAllIcon fontSize='large' />
