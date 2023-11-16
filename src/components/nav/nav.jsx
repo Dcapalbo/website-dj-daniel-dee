@@ -1,7 +1,7 @@
 /** @format */
 import SimpleDialog from '../dialogs/contactsDialogs/contactsDialogs';
-import BioDialog from '../dialogs/bioDialogs/bioDialogs';
 import PicturesSwiper from '../pictureSwiper/pictureSwiper';
+import BioDialog from '../dialogs/bioDialogs/bioDialogs';
 import { useState } from 'react';
 
 const Nav = ({ links }) => {

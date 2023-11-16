@@ -5,13 +5,10 @@ import PicturesSwiper from '../pictureSwiper/pictureSwiper';
 import BioDialog from '../dialogs/bioDialogs/bioDialogs';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 import ListItemButton from '@mui/joy/ListItemButton';
-import Typography from '@mui/joy/Typography';
 import IconButton from '@mui/joy/IconButton';
-import ModalClose from '@mui/joy/ModalClose';
 import React, { useState } from 'react';
 import Drawer from '@mui/joy/Drawer';
 import List from '@mui/joy/List';
-import Box from '@mui/joy/Box';
 
 const MobileNavigation = () => {
 	const [open, setOpen] = useState(false);
