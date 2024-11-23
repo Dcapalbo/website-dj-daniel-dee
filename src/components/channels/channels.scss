@@ -1,0 +1,127 @@
+/** @format */
+
+@import '../../style/variables.scss';
+@import '../../style/mixin.scss';
+
+.first_main_section {
+	background-color: #181818;
+	width: 100%;
+	h1 {
+		text-transform: lowercase;
+		font-family: $firstFont;
+		text-align: center;
+		padding-top: 50px;
+		color: #fff;
+		opacity: 0.8;
+	}
+	// main wrapper
+	.main_wrapper {
+		@include genericWrapper;
+		padding-top: 65px;
+		padding-bottom: 110px;
+		@include mainFlex;
+		// mix item
+		.mix_item {
+			background-color: #000;
+			border-radius: 5px;
+			position: relative;
+			margin: 40px 20px;
+			max-height: 300px;
+			max-width: 300px;
+			// mix item info
+			.mix_item_info {
+				transform: translate(-50%, -50%);
+				justify-content: space-around;
+				flex-direction: column;
+				position: absolute;
+				text-align: center;
+				padding: 30px 0px;
+				font-size: 20px;
+				display: flex;
+				padding: 20px;
+				color: #fff;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				left: 50%;
+				top: 50%;
+				h5,
+				small,
+				li {
+					font-family: $firstFont;
+				}
+				i {
+					color: #fff;
+				}
+			}
+			// overlay mix
+			.overlay_mix {
+				img {
+					border-radius: 5px;
+					height: 100%;
+					width: 100%;
+					opacity: 1;
+				}
+			}
+			&:hover .overlay_mix {
+				transform: translate(1.15);
+				transition: 0.3s;
+				cursor: pointer;
+				opacity: 0.2;
+			}
+			&:hover .mix_item_info {
+				cursor: pointer;
+				opacity: 1;
+			}
+		}
+	}
+}
+// responsive
+// mobile
+@media screen and (min-width: 0px) and (max-width: 767px) {
+	.first_main_section {
+		width: 100%;
+		h1 {
+			text-align: center;
+			padding-top: 50px;
+			font-family: $firstFont;
+		}
+		// main wrapper
+		.main_wrapper {
+			@include genericWrapper;
+			@include mainFlex;
+			// mix item
+			.mix_item {
+				background-color: #000;
+				border-radius: 5px;
+				position: relative;
+				min-height: 300px;
+				min-width: 300px;
+			}
+		}
+	}
+}
+// tablet
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.first_main_section {
+		width: 100%;
+		h1 {
+			text-align: center;
+			padding-top: 50px;
+			font-family: $firstFont;
+		}
+		// main wrapper
+		.main_wrapper {
+			@include genericWrapper;
+			@include mainFlex;
+			// mix item
+			.mix_item {
+				background-color: #000;
+				border-radius: 5px;
+				position: relative;
+				min-height: 300px;
+				min-width: 300px;
+			}
+		}
+	}
+}

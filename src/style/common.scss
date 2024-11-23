@@ -1,0 +1,63 @@
+/** @format */
+
+// Common
+@import './variables.scss';
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+#landing_music {
+	color: #000 !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: #000;
+}
+
+iframe {
+	border-radius: 10px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h3,
+h4 {
+	text-transform: lowercase !important;
+}
+
+footer {
+	text-transform: lowercase !important;
+}
+
+.absolute_close_modal {
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.white {
+	color: $white;
+}
+
+body {
+	scrollbar-width: thin; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+	width: 0.5rem; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #c41c1c; /* Color of the scrollbar thumb */
+	border-radius: 0.25rem; /* Radius of the scrollbar thumb */
+}

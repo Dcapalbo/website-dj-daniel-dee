@@ -1,2 +1,10 @@
-A single page application for a musical artist.
-To make it i used technologies such as: HTML, SCSS, PHP, LARAVEL, JAVASCRIPT
+<!-- @format -->
+
+# React + Vite
+
+React Web app for an artist landing
+
+Plug ing available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
